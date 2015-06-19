@@ -931,7 +931,7 @@ get_header(); ?>
 				<h2 class="title title--white">Contact Our Doctors today</h2>
 				<div class="people">
 					<div class="people__item">
-						<div class="people__pic"><img src="img/people1.jpg"  alt=""></div>
+						<div class="people__pic"><img src="<?php bloginfo('template_url') ?>/img/people1.jpg"  alt=""></div>
 						<div class="people__text">
 							<div class="title title--small">Dr. Henry Nguyen</div>
 							<div class="line line--jumbotron line--content-8"></div>
@@ -941,7 +941,7 @@ get_header(); ?>
 						</div>
 					</div>
 					<div class="people__item">
-						<div class="people__pic"><img src="img/people2.jpg"  alt=""></div>
+						<div class="people__pic"><img src="<?php bloginfo('template_url') ?>/img/people2.jpg"  alt=""></div>
 						<div class="people__text">
 							<div class="title title--small">Dr. Deborshi Roy</div>
 							<div class="line line--jumbotron line--content-8"></div>
