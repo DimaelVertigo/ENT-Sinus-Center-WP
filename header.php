@@ -19,7 +19,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div class="container container--light">
+	<div class="container container--light container--header">
 		<div class="wrapper wrapper--padding-off">
 			<header class="header">
 				<a href="#" class="header__logo"></a>
@@ -30,7 +30,7 @@
 						</li><li class="navigation__item">
 							<a href="#anchor--2" class="navigation__link navigation__link--2 anchor">how it work</a>
 						</li><li class="navigation__item">
-							<a href="#anchor--3" class="navigation__link navigation__link--3 anchor">estimonials</a>
+							<a href="#anchor--3" class="navigation__link navigation__link--3 anchor">testimonials</a>
 						</li><li class="navigation__item">
 							<a href="#anchor--4" class="navigation__link navigation__link--4 anchor">schedule appointment</a>
 						</li><li class="navigation__item">

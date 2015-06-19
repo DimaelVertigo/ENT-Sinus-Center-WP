@@ -47,10 +47,6 @@
 		</div>
 	</footer>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="js/jquery.magnific-popup.js"></script>
-	<script src="js/scripts.js"></script>
-
 </body>
 </html>
 

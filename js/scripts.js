@@ -183,5 +183,28 @@ $(document).ready(function() {
 	}());
 
 	testENT.init();
+	
+	// Video
+	var video = document.getElementById("video");
 
+	// Buttons
+	var playButton = document.getElementById("play-pause");
+
+
+	// Event listener for the play/pause button
+	playButton.addEventListener("click", function() {
+		if (video.paused == true) {
+			// Play the video
+			video.play();
+			$('#play-pause').addClass('paused').removeClass('played');
+			// Update the button text to 'Pause'
+			// playButton.innerHTML = "Pause";
+		} else {
+			// Pause the video
+			video.pause();
+			$('#play-pause').addClass('played').removeClass('paused');
+			// Update the button text to 'Play'
+			// playButton.innerHTML = "Play";
+		}
+	});
 });

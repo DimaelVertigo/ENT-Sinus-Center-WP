@@ -115,6 +115,7 @@ function ent_sinus_center_scripts() {
 	wp_deregister_script( 'jquery-core' );
 	wp_register_script( 'jquery-core', '//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js');
 	wp_enqueue_script( 'jquery' );
+	wp_enqueue_script('magnific-popup', get_template_directory_uri() . '/js/jquery.magnific-popup.js' );
 	wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts.js' );
 	wp_enqueue_style('style', get_template_directory_uri() . '/style.css');
 	wp_enqueue_style('magnific', get_template_directory_uri() . '/css/magnific-popup.css');

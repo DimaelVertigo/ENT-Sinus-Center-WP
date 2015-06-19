@@ -289,7 +289,8 @@ input:-moz-placeholder {
 }
 .btn--contact-form {
   border: none;
-  margin-top: 30px;
+  display: block;
+  margin: 30px auto 0;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 479px) {
   .btn--contact-form {
@@ -997,7 +998,6 @@ input:-moz-placeholder {
 .videos__frame {
   width: 100%;
   height: 400px;
-  background-color: #0d9d93;
   margin-bottom: 18px;
 }
 @media only screen and (min-width: 1200px) {
@@ -1005,7 +1005,16 @@ input:-moz-placeholder {
     width: 555px;
   }
 }
+.videos__frame--1 {
+  background: url(img/poster1.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.videos__frame--2 {
+  background: url(img/poster2.jpg) no-repeat 50%;
+  background-size: cover;
+}
 .videos__description {
+  margin-top: 25px;
   text-align: center;
 }
 @media only screen and (min-width: 1200px) {
@@ -1030,6 +1039,77 @@ input:-moz-placeholder {
   .videos__description-from {
     font: 18px 'libre_baskervilleitalic';
   }
+}
+#video-container {
+  position: relative;
+}
+#video-container:hover #play-pause,
+#video-container:focus #play-pause {
+  opacity: 1;
+}
+.play-pause {
+  outline: none;
+  width: 151px;
+  height: 151px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -75px 0 0 -75px;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+.play-pause:hover,
+.play-pause:focus {
+  cursor: pointer;
+}
+.play-pause::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(img/play.png) center no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.play-pause.played {
+  opacity: 0;
+}
+.play-pause.played::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(img/play.png) center no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.play-pause.paused {
+  opacity: 0;
+  background: none;
+}
+.play-pause.paused::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 48px;
+  background: #ffda6b;
+  top: 51px;
+  left: 60px;
+}
+.play-pause.paused::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 48px;
+  background: #ffda6b;
+  top: 51px;
+  right: 60px;
 }
 .content-6 {
   padding: 90px 0;

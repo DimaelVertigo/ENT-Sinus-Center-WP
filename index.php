@@ -137,7 +137,9 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="content-3__right">
-				<div class="content-3__video"></div>
+				<div class="content-3__video">
+					<video controls width="100%" height="100%" id="player1" poster="<?php bloginfo('template_url') ?>/img/video1.jpg" src="<?php bloginfo('template_url') ?>/media/video1.mp4" type="video/webm" preload="metadata" onerror="fallback(this)">
+				</div>
 			</div>
 		</div>
 	</div>
@@ -149,7 +151,7 @@ get_header(); ?>
 		</div>
 	</div>
 	
-	<div class="container container--gray" id="navigation__link--3">
+	<div class="container container--gray" id="anchor--3">
 		<div class="content content-5">
 			<div class="wrapper">
 
@@ -157,32 +159,63 @@ get_header(); ?>
 				<p class="description description--italic description--content-5">To date, Balloon sinuplasty has helped over 390,000 sinus patients, dilating over 1.5million sinus passages. Here is what they have to soy:</p>
 				<div class="videos">
 					<div class="videos__item">
-						<div class="videos__frame"></div>
+						<div class="videos__frame videos__frame--1">
+							<div id="video-container">
+								<!-- Video -->						
+								<video id="video" width="100%" height="100%" poster="transparent.png">
+									<source src="<?php bloginfo('template_url') ?>						
+									/media/video1.webm" type="video/webm">
+									<source src="<?php bloginfo('template_url') ?>						
+									/media/video1.ogv" type="video/ogv">
+									<source src="<?php bloginfo('template_url') ?>						
+									/media/video1.mp4" type="video/mp4">
+									<p>
+										Your browser doesn't support HTML5 video.
+										<a href="videos/mikethefrog.mp4">Download</a>
+										the video instead.
+									</p>
+								</video>
+								<!-- Video Controls -->						
+								<div id="video-controls" class="video-controls">
+									<button type="button" id="play-pause" class="play-pause"></button>
+								</div>
+							</div>
+						</div><!-- videos__frame -->
 						<div class="videos__description">
 							<span class="videos__description-name">Cynthia </span><span class="videos__description-from">North Carolina, USA</span>
 						</div>
 					</div>
 					<div class="videos__item">
-						<div class="videos__frame"></div>
+						<div class="videos__frame videos__frame--2">
+							<div id="video-container">
+								<!-- Video -->						
+								<video id="video" width="100%" height="100%" poster="transparent.png">
+									<source src="<?php bloginfo('template_url') ?>						
+									/media/video2.webm" type="video/webm">
+									<source src="<?php bloginfo('template_url') ?>						
+									/media/video2.ogv" type="video/ogv">
+									<source src="<?php bloginfo('template_url') ?>						
+									/media/video2.mp4" type="video/mp4">
+									<p>
+										Your browser doesn't support HTML5 video.
+										<a href="videos/mikethefrog.mp4">Download</a>
+										the video instead.
+									</p>
+								</video>
+								<!-- Video Controls -->						
+								<div id="video-controls" class="video-controls">
+									<button type="button" id="play-pause" class="play-pause"></button>
+								</div>
+							</div>
+						</div><!-- videos__frame -->
 						<div class="videos__description">
-							<span class="videos__description-name">Karen </span><span class="videos__description-from">North Carolina, USA</span>
+							<span class="videos__description-name">Cynthia </span><span class="videos__description-from">North Carolina, USA</span>
 						</div>
 					</div>
+					
+					
 				</div><!-- videos -->
-				<div class="videos">
-					<div class="videos__item">
-						<div class="videos__frame"></div>
-						<div class="videos__description">
-							<span class="videos__description-name">Mary Ann </span><span class="videos__description-from">North Carolina, USA</span>
-						</div>
-					</div>
-					<div class="videos__item">
-						<div class="videos__frame"></div>
-						<div class="videos__description">
-							<span class="videos__description-name">Vernon </span><span class="videos__description-from">North Carolina, USA</span>
-						</div>
-					</div>
-				</div><!-- videos -->
+				
 
 			</div><!-- wrapper -->
 		</div><!-- content -->
@@ -924,7 +957,7 @@ get_header(); ?>
 
 		
 
-	<div class="container">
+	<div class="container" id="anchor--4">
 		<div class="content content-8">
 			<div class="wrapper">
 
@@ -953,10 +986,7 @@ get_header(); ?>
 				<i class="content-8__icon"></i>
 				<div class="contact-form">
 					<form action="">
-						<input type="text" class="contact-form__input contact-form__input--text" placeholder="Your name*">		
-						<input type="tel" class="contact-form__input contact-form__input--tel" placeholder="Phone number*">		
-						<input type="email" class="contact-form__input contact-form__input--email" placeholder="E-mail adress*">				
-						<button type="submit" class="btn btn--yellow btn--contact-form">get more info</button>
+						<?php echo do_shortcode("[contact-form-7 id=4 title=Contact form 1]"); ?>
 					</form>
 				</div><!-- contact-form -->
 
