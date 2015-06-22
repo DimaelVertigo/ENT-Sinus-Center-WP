@@ -265,7 +265,9 @@ input:-moz-placeholder {
   width: 100%;
 }
 .btn {
+  outline: none;
   display: inline-block;
+  border: none;
   height: 74px;
   border-radius: 3px;
   background-clip: padding-box;
@@ -306,6 +308,10 @@ input:-moz-placeholder {
   .btn--contact-form {
     width: 100%;
   }
+}
+.btn--gray {
+  color: #fff;
+  background-color: #b8b8b8;
 }
 @media only screen and (min-width: 1200px) {
   .btn {
@@ -612,6 +618,37 @@ input:-moz-placeholder {
   .navigation__btn {
     height: 58px;
     font: 14px/58px 'proxima_novasemibold';
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .floating-header {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+  }
+}
+@-webkit-keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-2000px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 /*-----  End of HEADER  ------*/
@@ -997,24 +1034,31 @@ input:-moz-placeholder {
 }
 .videos__frame {
   width: 100%;
-  height: 400px;
+  height: 312px;
   margin-bottom: 18px;
 }
 @media only screen and (min-width: 1200px) {
   .videos__frame {
     width: 555px;
   }
-}
-.videos__frame--1 {
-  background: url(img/poster1.jpg) no-repeat 50%;
-  background-size: cover;
-}
-.videos__frame--2 {
-  background: url(img/poster2.jpg) no-repeat 50%;
-  background-size: cover;
+  .videos__frame--1 {
+    background: url(img/poster1.jpg) no-repeat 50%;
+    background-size: cover;
+  }
+  .videos__frame--2 {
+    background: url(img/poster2.jpg) no-repeat 50%;
+    background-size: cover;
+  }
+  .videos__frame--3 {
+    background: url(img/poster3.jpg) no-repeat 50%;
+    background-size: cover;
+  }
+  .videos__frame--4 {
+    background: url(img/poster4.jpg) no-repeat 50%;
+    background-size: cover;
+  }
 }
 .videos__description {
-  margin-top: 25px;
   text-align: center;
 }
 @media only screen and (min-width: 1200px) {
@@ -1040,11 +1084,11 @@ input:-moz-placeholder {
     font: 18px 'libre_baskervilleitalic';
   }
 }
-#video-container {
+.video-player-container {
   position: relative;
 }
-#video-container:hover #play-pause,
-#video-container:focus #play-pause {
+.video-player-container:hover .play-pause,
+.video-player-container:focus .play-pause {
   opacity: 1;
 }
 .play-pause {
@@ -1415,6 +1459,15 @@ input:-moz-placeholder {
   transition: all 0.1s ease-in-out;
   display: none;
 }
+.floating-table-header {
+  position: fixed;
+  top: 118px;
+  z-index: 2;
+  width: 1200px;
+}
+.floating-table-header td:nth-child(1) {
+  width: 312px;
+}
 .status-progress {
   display: flex;
   justify-content: space-between;
@@ -1467,13 +1520,58 @@ input:-moz-placeholder {
   background-color: #f9d467;
 }
 .white-popup {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
   position: relative;
-  background: #FFF;
-  padding: 20px;
-  width: auto;
-  max-width: 500px;
-  margin: 20px auto;
-  border-top: 3px solid #0d9d93;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media only screen and (min-width: 1200px) {
+  .white-popup {
+    padding-left: 0;
+    padding-right: 0;
+    width: 1200px;
+  }
+}
+.white-popup .scores {
+  display: flex;
+  justify-content: center;
+  font: 30px 'tradegothicbold';
+  text-transform: uppercase;
+}
+.white-popup .score-text {
+  color: #b8b8b8;
+  margin-right: 25px;
+}
+.white-popup .rs-sum {
+  color: #f7e042;
+}
+.white-popup .status-progress {
+  display: flex;
+  justify-content: center;
+}
+.white-popup .result-msg {
+  font: 18px/29px 'libre_baskervilleitalic';
+  border: 2px solid #f5f7f9;
+  padding: 40px;
+  width: 672px;
+  margin: 60px auto;
+}
+.white-popup .contact-form__input {
+  background-color: #f8f8f8;
+}
+.white-popup .contact-form__input::-webkit-input-placeholder {
+  color: #a4a4a4;
+}
+.white-popup .contact-form__input:-moz-placeholder {
+  color: #a4a4a4;
+}
+.white-popup .contact-form {
+  z-index: 12;
 }
 .content-7 {
   padding: 90px 0;
@@ -1523,6 +1621,10 @@ input:-moz-placeholder {
 }
 .content-8__icon::after {
   left: 79px;
+}
+#anchor--4 {
+  position: relative;
+  top: -150px;
 }
 .people {
   margin: 90px 0;

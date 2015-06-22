@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-	// Tabs
+// Tabs
 	var allPanels = $('.content-3__hidden-text');
 	allPanels.hide();
 	$('.content-3__tabs .content-3__tab-trigger').on('click', function() {
@@ -18,8 +18,8 @@ $(document).ready(function() {
 			cont.slideDown(speed);
 		}
 	});
-	// Form validation
 
+// Form validation
 	var form = $('form');
 
 	var validation = {
@@ -65,7 +65,7 @@ $(document).ready(function() {
 	};
 	validation.init();
 
-	// Anchors 
+// Anchors 
 	$("a.anchor").click(function(e) {
 		var elementClick = $(this).attr("href");
 		var destination = $(elementClick).offset().top;
@@ -75,136 +75,150 @@ $(document).ready(function() {
 		e.preventDefault();
 	});
 
-	// Test table 
-	$('.test-table__body-item').on('click', function() {
-		$(this).addClass('test-table__body-item--focus').siblings().removeClass('test-table__body-item--focus');
+// Test table 
+$('.test-table__body-item').on('click', function() {
+	$(this).addClass('test-table__body-item--focus').siblings().removeClass('test-table__body-item--focus');
+});
+
+
+var testENT = (function() {
+	var resultPopup = $('#result-popup'),
+		scoreResult = resultPopup.find('.rs-sum'),
+		msgResult = resultPopup.find('.result-msg'),
+		tableEnt = $('.test-table'),
+		btnShowResult = tableEnt.closest('.container').next('.container').find('.js-show-test-result'),
+		numberQuestion = $('.test-question'),
+
+		// Pregress bar
+		contProgressBox = $('.status-progress'),
+		stepBox = contProgressBox.find('.step-i-value'),
+		stepValue = stepBox.children('.value'),
+		stepBar = stepBox.next('.progress-bar').children('span'),
+		scoreBox = contProgressBox.find('.score-i-value'),
+		scoreValue = scoreBox.children('.value'),
+		scoreBar = scoreBox.next('.progress-bar').children('span'),
+
+		// Test data
+		score = [],
+		questSumm = null,
+		resultNoProblem = 'And appointment with a specialist is recommended, treatment to be determined by doctor. Possible surgical candidate.',
+		resultModerate = 'An appointment with a specialist or your PCP is recommended and/or prescription medicine can be taken to treat symptoms.',
+		resultModerateSevere = 'An appointment with a specialist or your PCP is recommended and/or prescription medicine can be taken to treat symptoms.',
+		resultAsBadAsItCanBe = 'And appointment with a specialist is recommended, treatment to be determined by doctor. Possible surgical candidate.';
+
+	return {
+		init: function() {
+			_this = this;
+			_this.listeners();
+		},
+		listeners: function() {
+			tableEnt.on('change', '.test-table__hidden-radio', _this.saveAnswer);
+		},
+		saveAnswer: function() {
+			var that = $(this),
+				value = parseInt(that.attr('value')),
+				tableQuest = that.closest('.test-table__body'),
+				questNumber = tableQuest.data('quest-number');
+
+			score[questNumber] = value;
+			questSumm = questNumber + 1;
+			_this.showQuestion(tableQuest);
+		},
+		showQuestion: function(elem) {
+			var nextQuestion = elem.next();
+
+			if (nextQuestion.length) {
+				nextQuestion.removeClass('test-table__body--hidden')
+					.addClass('test-table__body--visible');
+			} else {
+				_this.detectResult(score);
+			}
+			_this.stepBarCalc(questSumm);
+			_this.scoreBarCalc(score);
+		},
+		sumResult: function(scoreArr) {
+			var sum = null;
+			for (i = 0; i < scoreArr.length; i++) {
+				sum += scoreArr[i];
+			}
+			return sum;
+		},
+		stepBarCalc: function(stepSumm) {
+			var barCalculate = (stepSumm / 20) * 100;
+			stepValue.text(stepSumm);
+			stepBar.css('width', barCalculate + '%');
+		},
+		scoreBarCalc: function(scoreArr) {
+			var score = _this.sumResult(scoreArr);
+			barCalculate = (score / 100) * 100;
+			scoreValue.text(score);
+			scoreBar.css('width', barCalculate + '%');
+		},
+		detectResult: function(score) {
+			var result = _this.sumResult(score);
+
+			if (result >= 0 && result <= 10) {
+				_this.showResult(resultNoProblem);
+			} else if (result >= 11 && result <= 40) {
+				_this.showResult(resultModerate);
+			} else if (result >= 41 && result <= 69) {
+				_this.showResult(resultModerateSevere);
+			} else if (result >= 70 && result <= 100) {
+				_this.showResult(resultAsBadAsItCanBe);
+			}
+		},
+		showResult: function(msg) {
+			btnShowResult.text('Show result');
+			$('.js-show-test-result').addClass('btn--red').removeClass('btn--gray').magnificPopup({
+				type: 'inline',
+				callbacks: {
+					open: function() {
+						scoreResult.text(_this.sumResult(score));
+						msgResult.text(msg);
+					}
+				}
+			});
+		}
+	};
+}());
+
+testENT.init();
+
+
+// Video
+	var video = $('.video-player'),
+		videoContainer = $('.video-player-container');
+
+// Event listener for the play/pause button
+	videoContainer.on("click", '.play-pause', function() {
+		var _this = $(this);
+		videoBlock = _this.parent().siblings('.video-player');
+
+		if (videoBlock[0].paused == true) {
+			videoBlock[0].play();
+			_this.addClass('paused').removeClass('played');
+		} else {
+			videoBlock[0].pause();
+			_this.addClass('played').removeClass('paused');
+		}
+
 	});
 
-	
-	var testENT = (function() {
-		var resultPopup = $('#result-popup'),
-			scoreResult = resultPopup.find('.rs-sum'),
-			msgResult = resultPopup.find('.result-msg'),
-			tableEnt = $('.test-table'),
-			btnShowResult = tableEnt.next().find('.js-show-test-result'),
-			numberQuestion = $('.test-question'),
-			
-			// Pregress bar
-			contProgressBox = $('.status-progress'),
-			stepBox = contProgressBox.find('.step-i-value'),
-			stepValue = stepBox.children('.value'),
-			stepBar = stepBox.next('.progress-bar').children('span'),
-			scoreBox = contProgressBox.find('.score-i-value'),
-			scoreValue = scoreBox.children('.value'),
-			scoreBar = scoreBox.next('.progress-bar').children('span'),
-
-			// Test data
-			score = [],
-			questSumm = null,
-			resultNoProblem = 'No actions necessary or symptoms can be treated with OTC medication.',
-			resultModerate = 'An appointment with a specialist or your PCP is recommended and/or prescription medicine can be taken to treat symptoms.',
-			resultModerateSevere = 'An appointment with a specialist or your PCP is recommended and/or prescription medicine can be taken to treat symptoms.',
-			resultAsBadAsItCanBe = 'And appointment with a specialist is recommended, treatment to be determined by doctor. Possible surgical candidate.';
-		
-		return {
-			init: function() {
-				_this = this;
-				_this.listeners();
-			},
-			listeners: function() {
-				tableEnt.on('change', '.test-table__hidden-radio', _this.saveAnswer);
-			},
-			saveAnswer: function() {
-				var that = $(this),
-					value = parseInt(that.attr('value')),
-					tableQuest = that.closest('.test-table__body'),
-					questNumber = tableQuest.data('quest-number');
-
-				score[questNumber] = value;
-				questSumm = questNumber +1;
-				_this.showQuestion(tableQuest);
-			},
-			showQuestion: function(elem) {
-				var nextQuestion = elem.next();
-
-				if (nextQuestion.length) {
-					nextQuestion.removeClass('test-table__body--hidden')
-								.addClass('test-table__body--visible');
-				} else {
-					_this.detectResult(score);
-				}
-				_this.stepBarCalc(questSumm);
-				_this.scoreBarCalc(score);
-			},
-			sumResult: function(scoreArr) {
-				var sum = null;
-				for (i=0; i<scoreArr.length; i++) {
-					sum += scoreArr[i];
-				}
-				return sum;
-			},
-			stepBarCalc: function(stepSumm) {
-				var barCalculate = (stepSumm / 20) * 100;
-				stepValue.text(stepSumm);
-				stepBar.css('width', barCalculate + '%');
-			},
-			scoreBarCalc: function(scoreArr) {
-				var score = _this.sumResult(scoreArr);
-					barCalculate = (score / 100) * 100;
-				scoreValue.text(score);
-				scoreBar.css('width', barCalculate + '%');
-			},
-			detectResult: function(score) {
-				var result = _this.sumResult(score);
-
-				if (result >= 0 && result <= 10) {
-					_this.showResult(resultNoProblem);
-				} else if (result >= 11 && result <= 40) {
-					_this.showResult(resultModerate);
-				} else if (result >= 41 && result <= 69) {
-					_this.showResult(resultModerateSevere);
-				} else if (result >= 70 && result <= 100) {
-					_this.showResult(resultAsBadAsItCanBe);
-				}
-			},
-			showResult: function(msg) {
-				btnShowResult.text('Show result');
-				$('.js-show-test-result').magnificPopup({
-					type:'inline',
-					callbacks: {
-						open: function() {
-							scoreResult.text(_this.sumResult(score));
-							msgResult.text(msg);
-						}
-					}
-				});
-			}
-		};
-	}());
-
-	testENT.init();
-	
-	// Video
-	var video = document.getElementById("video");
-
-	// Buttons
-	var playButton = document.getElementById("play-pause");
-
-
-	// Event listener for the play/pause button
-	playButton.addEventListener("click", function() {
-		if (video.paused == true) {
-			// Play the video
-			video.play();
-			$('#play-pause').addClass('paused').removeClass('played');
-			// Update the button text to 'Pause'
-			// playButton.innerHTML = "Pause";
-		} else {
-			// Pause the video
-			video.pause();
-			$('#play-pause').addClass('played').removeClass('paused');
-			// Update the button text to 'Play'
-			// playButton.innerHTML = "Play";
-		}
+// Floating elements
+	$(window).on('scroll', function() {
+		var scrTop = $(window).scrollTop(),
+			tableHeight = $('.test-table__body').height(),
+			heightLimiter = 4466 + tableHeight;
+		if (scrTop >= 880) {
+			$('.container--header').addClass('floating-header');
+		} else if ((scrTop == 0)) {
+			$('.container--header').removeClass('floating-header');
+		} 
+		// if (scrTop >= 4436) {
+		// 	$('.test-table__head').addClass('floating-table-header');
+		// }
+		// if (scrTop > heightLimiter) {
+		// 	$('.test-table__head').removeClass('floating-table-header');
+		// } 
 	});
 });

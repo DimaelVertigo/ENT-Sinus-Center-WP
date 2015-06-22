@@ -22,11 +22,11 @@
 	<div class="container container--light container--header">
 		<div class="wrapper wrapper--padding-off">
 			<header class="header">
-				<a href="#" class="header__logo"></a>
+				<a href="<?php echo home_url(); ?>" class="header__logo"></a>
 				<nav class="navigation">
 					<ul>
 						<li class="navigation__item">
-							<a href="#anchor--1" class="navigation__link navigation__link--1 anchor">benifits</a>
+							<a href="#anchor--1" class="navigation__link navigation__link--1 anchor">benefits</a>
 						</li><li class="navigation__item">
 							<a href="#anchor--2" class="navigation__link navigation__link--2 anchor">how it work</a>
 						</li><li class="navigation__item">

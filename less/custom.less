@@ -72,7 +72,9 @@ input:-moz-placeholder {
 	width: 100%;
 }
 .btn {
+	outline: none;
 	display: inline-block;
+	border: none;
 	height: 74px;
 	border-radius: 3px;
 	background-clip: padding-box;
@@ -106,6 +108,10 @@ input:-moz-placeholder {
 		@media @tablet {
 			width: 100%;
 		}
+	}
+	&--gray {
+		color: #fff;
+		background-color: @gray;
 	}
 	@media @desktop {
 		height: 54px;

@@ -138,7 +138,23 @@ get_header(); ?>
 			</div>
 			<div class="content-3__right">
 				<div class="content-3__video">
-					<video controls width="100%" height="100%" id="player1" poster="<?php bloginfo('template_url') ?>/img/video1.jpg" src="<?php bloginfo('template_url') ?>/media/video1.mp4" type="video/webm" preload="metadata" onerror="fallback(this)">
+					<div class="video-player-container">
+						<!-- Video -->					
+						<video class="video-player" width="100%" height="100%" poster="<?php bloginfo('template_url') ?>
+							/img/transparent.png">
+							<source src="<?php bloginfo('template_url') ?>					
+							/media/video1.mp4" type="video/mp4">
+							<p>
+								Your browser doesn't support HTML5 video.
+								<a href="videos/mikethefrog.mp4">Download</a>
+								the video instead.
+							</p>
+						</video>
+						<!-- Video Controls -->					
+						<div id="video-controls" class="video-controls">
+							<button type="button" class="play-pause"></button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -160,15 +176,12 @@ get_header(); ?>
 				<div class="videos">
 					<div class="videos__item">
 						<div class="videos__frame videos__frame--1">
-							<div id="video-container">
+							<div class="video-player-container">
 								<!-- Video -->						
-								<video id="video" width="100%" height="100%" poster="transparent.png">
+								<video class="video-player" width="100%" height="100%" poster="<?php bloginfo('template_url') ?>/img/transparent.png">
+									
 									<source src="<?php bloginfo('template_url') ?>						
-									/media/video1.webm" type="video/webm">
-									<source src="<?php bloginfo('template_url') ?>						
-									/media/video1.ogv" type="video/ogv">
-									<source src="<?php bloginfo('template_url') ?>						
-									/media/video1.mp4" type="video/mp4">
+									/media/cynthia_life_post_procedure_1.mp4" type="video/mp4">
 									<p>
 										Your browser doesn't support HTML5 video.
 										<a href="videos/mikethefrog.mp4">Download</a>
@@ -177,7 +190,7 @@ get_header(); ?>
 								</video>
 								<!-- Video Controls -->						
 								<div id="video-controls" class="video-controls">
-									<button type="button" id="play-pause" class="play-pause"></button>
+									<button type="button" class="play-pause"></button>
 								</div>
 							</div>
 						</div><!-- videos__frame -->
@@ -187,15 +200,12 @@ get_header(); ?>
 					</div>
 					<div class="videos__item">
 						<div class="videos__frame videos__frame--2">
-							<div id="video-container">
+							<div class="video-player-container">
 								<!-- Video -->						
-								<video id="video" width="100%" height="100%" poster="transparent.png">
+								<video class="video-player" width="100%" height="100%" poster="<?php bloginfo('template_url') ?>/img/transparent.png">
+									
 									<source src="<?php bloginfo('template_url') ?>						
-									/media/video2.webm" type="video/webm">
-									<source src="<?php bloginfo('template_url') ?>						
-									/media/video2.ogv" type="video/ogv">
-									<source src="<?php bloginfo('template_url') ?>						
-									/media/video2.mp4" type="video/mp4">
+									/media/karen_life_post_procedure_1.mp4" type="video/mp4">
 									<p>
 										Your browser doesn't support HTML5 video.
 										<a href="videos/mikethefrog.mp4">Download</a>
@@ -204,16 +214,64 @@ get_header(); ?>
 								</video>
 								<!-- Video Controls -->						
 								<div id="video-controls" class="video-controls">
-									<button type="button" id="play-pause" class="play-pause"></button>
+									<button type="button" class="play-pause"></button>
 								</div>
 							</div>
 						</div><!-- videos__frame -->
 						<div class="videos__description">
-							<span class="videos__description-name">Cynthia </span><span class="videos__description-from">North Carolina, USA</span>
+							<span class="videos__description-name">Karen </span><span class="videos__description-from">North Carolina, USA </span>
 						</div>
 					</div>
-					
-					
+				</div><!-- videos -->
+				<div class="videos">
+					<div class="videos__item">
+						<div class="videos__frame videos__frame--3">
+							<div class="video-player-container">
+								<!-- Video -->						
+								<video class="video-player" width="100%" height="100%" poster="<?php bloginfo('template_url') ?>/img/transparent.png">
+									
+									<source src="<?php bloginfo('template_url') ?>						
+									/media/mary_ann_life_post_procedure_1.mp4" type="video/mp4">
+									<p>
+										Your browser doesn't support HTML5 video.
+										<a href="videos/mikethefrog.mp4">Download</a>
+										the video instead.
+									</p>
+								</video>
+								<!-- Video Controls -->						
+								<div id="video-controls" class="video-controls">
+									<button type="button" class="play-pause"></button>
+								</div>
+							</div>
+						</div><!-- videos__frame -->
+						<div class="videos__description">
+							<span class="videos__description-name">Mary Ann  </span><span class="videos__description-from">North Carolina, USA</span>
+						</div>
+					</div>
+					<div class="videos__item">
+						<div class="videos__frame videos__frame--4">
+							<div class="video-player-container">
+								<!-- Video -->						
+								<video class="video-player" width="100%" height="100%" poster="<?php bloginfo('template_url') ?>/img/transparent.png">
+									
+									<source src="<?php bloginfo('template_url') ?>						
+									/media/vernon_post_procedure_1.mp4" type="video/mp4">
+									<p>
+										Your browser doesn't support HTML5 video.
+										<a href="videos/mikethefrog.mp4">Download</a>
+										the video instead.
+									</p>
+								</video>
+								<!-- Video Controls -->						
+								<div id="video-controls" class="video-controls">
+									<button type="button" class="play-pause"></button>
+								</div>
+							</div>
+						</div><!-- videos__frame -->
+						<div class="videos__description">
+							<span class="videos__description-name">Vernon </span><span class="videos__description-from">North Carolina, USA</span>
+						</div>
+					</div>
 				</div><!-- videos -->
 				
 
@@ -229,13 +287,24 @@ get_header(); ?>
 				<p class="description description--italic">
 					Consider how severe the problem is when you experience it and how frequently it happens, please rate each item below on how “bad” it is by ticking the radio button that corresponds with you feel.
 				</p>
-				
-				<div id="result-popup" class="white-popup mfp-hide">
-					<p class="result-score title">
-						Score
-						<span class="rs-sum"></span>
-					</p>
+				<div id="result-popup" class="white-popup mfp-hide"> 
+					<h2 class="result-score title title--line">Your results</h2>
+					<div class="scores"><span class="score-text">Score</span><span class="rs-sum"></span></div>
+					<div class="status-progress row">
+						<div class="score-info">
+							
+							<div class="progress-bar score">
+								<span style="width: 0%;"></span>
+							</div>
+						</div>
+					</div>
 					<p class="result-msg italic"></p>
+					<div class="contact-form">
+						<form action="">
+							<?php echo do_shortcode("[contact-form-7 id=4 title=Contact form 1]"); ?>
+						</form>
+					</div><!-- contact-form -->
+
 				</div>
 		
 				<table class="test-table">
@@ -257,7 +326,7 @@ get_header(); ?>
 						</tr>
 					</tbody>
 
-					<tbody>
+					<tbody class="test-table__body">
 						<tr data-quest-number="0" class="test-table__body test-table__body--visible">
 							<td class="test-table__body-item test-table__item">Need to blow nose</td>
 							<td class="test-table__body-item test-table__item">
@@ -291,7 +360,7 @@ get_header(); ?>
 								<span class="test-table__checkbox"></span>
 							</td>
 						</tr>
-
+<!-- 
 						<tr data-quest-number="1" class="test-table__body test-table__body--hidden">
 							<td class="test-table__body-item test-table__item">Sneezing</td>
 							<td class="test-table__body-item test-table__item">
@@ -359,7 +428,6 @@ get_header(); ?>
 								<span class="test-table__checkbox"></span>
 							</td>
 						</tr>
-
 						<tr data-quest-number="3" class="test-table__body test-table__body--hidden">
 							<td class="test-table__body-item test-table__item">Cough</td>
 							<td class="test-table__body-item test-table__item">
@@ -922,7 +990,7 @@ get_header(); ?>
 							</td>
 						</tr>
 
-					</tbody>
+					 --></tbody>
 				</table>
 				<div class="status-progress row">
 					<div class="step-info">
@@ -950,14 +1018,14 @@ get_header(); ?>
 			<div class="content content-7">
 				<div class="wrapper">
 					<p class="description description--italic">Nothing on this site should be considered medical advice. The score evaluation is to be used as a guide and not a physician's diagnosis. Treatment to be determined by doctor upon appointment.</p>
-					<a href="#result-popup" class="js-show-test-result btn btn--red">Please finish test</a>
+					<a href="#result-popup" class="js-show-test-result btn btn--gray">Please finish test</a>
 				</div><!-- content -->
 			</div><!-- content -->
 		</div><!-- container -->
 
 		
 
-	<div class="container" id="anchor--4">
+	<div class="container">
 		<div class="content content-8">
 			<div class="wrapper">
 
@@ -978,10 +1046,11 @@ get_header(); ?>
 						<div class="people__text">
 							<div class="title title--small">Dr. Deborshi Roy</div>
 							<div class="line line--jumbotron line--content-8"></div>
-							<div class="people__info">Dr. Roy is board-certified in both Otolaryngology and Facial Plastic & Reconstructive Surgery. Dr. Roy sees all patients with ear, nose and throat disorders, including children. He has a special interest in nasal and sinus surgery, as well as facial plastic surgery. Dr. Roy uses the most innovative techniques and technology to perform procedures in the office as well as the operating room, including Balloon Sinuplasty.</div>
+							<div class="people__info">Dr. Roy is board-certified in both tolaryngology and Facial Plastic & Reconstructive Surgery. Dr. Roy sees all patients with ear, nose and throat disorders, including children. He has a special interest in nasal and sinus surgery, as well as facial plastic surgery. Dr. Roy uses the most innovative techniques and technology to perform procedures in the office as well as the operating room, including Balloon Sinuplasty.</div>
 						</div>
 					</div>
 				</div><!-- people -->
+				<div id="anchor--4"></div>
 				
 				<i class="content-8__icon"></i>
 				<div class="contact-form">
