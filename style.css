@@ -1041,22 +1041,22 @@ input:-moz-placeholder {
   .videos__frame {
     width: 555px;
   }
-  .videos__frame--1 {
-    background: url(img/poster1.jpg) no-repeat 50%;
-    background-size: cover;
-  }
-  .videos__frame--2 {
-    background: url(img/poster2.jpg) no-repeat 50%;
-    background-size: cover;
-  }
-  .videos__frame--3 {
-    background: url(img/poster3.jpg) no-repeat 50%;
-    background-size: cover;
-  }
-  .videos__frame--4 {
-    background: url(img/poster4.jpg) no-repeat 50%;
-    background-size: cover;
-  }
+}
+.videos__frame--1 {
+  background: url(img/poster1.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.videos__frame--2 {
+  background: url(img/poster2.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.videos__frame--3 {
+  background: url(img/poster3.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.videos__frame--4 {
+  background: url(img/poster4.jpg) no-repeat 50%;
+  background-size: cover;
 }
 .videos__description {
   text-align: center;
@@ -1563,12 +1563,22 @@ input:-moz-placeholder {
 }
 .white-popup .contact-form__input {
   background-color: #f8f8f8;
+  color: #5b5b5b;
+}
+.white-popup .contact-form__input--has-error {
+  background-color: rgba(233, 85, 93, 0.4);
 }
 .white-popup .contact-form__input::-webkit-input-placeholder {
   color: #a4a4a4;
 }
 .white-popup .contact-form__input:-moz-placeholder {
   color: #a4a4a4;
+}
+.white-popup .contact-form__input--has-error::-webkit-input-placeholder {
+  color: #fff;
+}
+.white-popup .contact-form__input--has-error:-moz-placeholder {
+  color: #fff;
 }
 .white-popup .contact-form {
   z-index: 12;

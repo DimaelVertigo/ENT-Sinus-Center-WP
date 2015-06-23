@@ -394,12 +394,22 @@
 	}
 	.contact-form__input {
 		background-color: #f8f8f8;
+		color: @brand;
+		&--has-error {
+			background-color: rgba(233,85,93,.4);
+		}
 	}
 	.contact-form__input::-webkit-input-placeholder {
 		color: #a4a4a4;
 	}
 	.contact-form__input:-moz-placeholder {
 		color: #a4a4a4;
+	}
+	.contact-form__input--has-error::-webkit-input-placeholder {
+		color: #fff;
+	}
+	.contact-form__input--has-error:-moz-placeholder {
+		color: #fff;
 	}
 	// position: relative;
 	// background: #FFF;

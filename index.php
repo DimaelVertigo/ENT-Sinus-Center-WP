@@ -301,7 +301,7 @@ get_header(); ?>
 					<p class="result-msg italic"></p>
 					<div class="contact-form">
 						<form action="">
-							<?php echo do_shortcode("[contact-form-7 id=4 title=Contact form 1]"); ?>
+							<?php echo do_shortcode("[contact-form-7 id=5 title=Contact form 2]"); ?>
 						</form>
 					</div><!-- contact-form -->
 
@@ -360,8 +360,8 @@ get_header(); ?>
 								<span class="test-table__checkbox"></span>
 							</td>
 						</tr>
-<!-- 
-						<tr data-quest-number="1" class="test-table__body test-table__body--hidden">
+
+						<!-- <tr data-quest-number="1" class="test-table__body test-table__body--hidden">
 							<td class="test-table__body-item test-table__item">Sneezing</td>
 							<td class="test-table__body-item test-table__item">
 								<label for="checkbox-2-1"></label>
@@ -988,9 +988,9 @@ get_header(); ?>
 								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-20-6" name="tq-20">
 								<span class="test-table__checkbox"></span>
 							</td>
-						</tr>
+						</tr> -->
 
-					 --></tbody>
+					 </tbody>
 				</table>
 				<div class="status-progress row">
 					<div class="step-info">
