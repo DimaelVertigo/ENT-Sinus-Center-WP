@@ -140,15 +140,10 @@ get_header(); ?>
 				<div class="content-3__video">
 					<div class="video-player-container">
 						<!-- Video -->					
-						<video class="video-player" width="100%" height="100%" poster="<?php bloginfo('template_url') ?>
+						<video class="video-player" width="100%" height="100%" autoplay loop poster="<?php bloginfo('template_url') ?>
 							/img/transparent.png">
 							<source src="<?php bloginfo('template_url') ?>					
 							/media/video1.mp4" type="video/mp4">
-							<p>
-								Your browser doesn't support HTML5 video.
-								<a href="videos/mikethefrog.mp4">Download</a>
-								the video instead.
-							</p>
 						</video>
 						<!-- Video Controls -->					
 						<div id="video-controls" class="video-controls">
@@ -361,7 +356,7 @@ get_header(); ?>
 							</td>
 						</tr>
 
-						<!-- <tr data-quest-number="1" class="test-table__body test-table__body--hidden">
+						<tr data-quest-number="1" class="test-table__body test-table__body--hidden">
 							<td class="test-table__body-item test-table__item">Sneezing</td>
 							<td class="test-table__body-item test-table__item">
 								<label for="checkbox-2-1"></label>
@@ -988,7 +983,7 @@ get_header(); ?>
 								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-20-6" name="tq-20">
 								<span class="test-table__checkbox"></span>
 							</td>
-						</tr> -->
+						</tr>
 
 					 </tbody>
 				</table>

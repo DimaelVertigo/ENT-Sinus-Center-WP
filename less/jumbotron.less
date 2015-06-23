@@ -2,15 +2,26 @@
 	background: url(img/jumbotron.jpg) no-repeat left top;
 	background-size: cover;
 	position: relative;
-	min-height: 874px;
 	padding-top: 90px;
+	@media @mobile {
+		padding-top: 20px;
+	}
 	@media @desktop {
 		padding: 90px 0;
+		min-height: 874px;
 	}
 	&__wrapper {
-		height: 874px;
 		overflow: visible;
 		position: relative;
+		@media @mobile {
+			min-height: 812px;
+		}
+		@media @tablet {
+			min-height: 998px;
+		}
+		@media @desktop {
+			min-height: 874px;
+		}
 	}
 	&__img {
 		position: absolute;
@@ -20,12 +31,7 @@
 		width: 823px;
 		height: 736px;
 		@media @mobile {
-			background-size: 50%; 
-			right: 50px;
-		}
-		@media @smartphone {
-			background-size: 50%;
-			right: 50px;
+			display: none;
 		}
 		@media @tablet {
 			background-size: 50%;
@@ -43,6 +49,10 @@
 		color: @yellow-text;
 		font: 48px @prox-r;
 		text-transform: uppercase;
+		@media @mobile {
+			font-size: 31px;
+			text-align: center;
+		}
 		@media @desktop {
 			font: 28px/1px @prox-r;
 		}
@@ -51,6 +61,10 @@
 		margin-top: 32px;
 		color: #fff;
 		font: 64px @libre-b;
+		@media @mobile {
+			font-size: 35px;
+			text-align: center;
+		}
 		@media @desktop {
 			font: 44px/52px @libre-b;
 		}
@@ -59,6 +73,10 @@
 		margin-top: 15px;
 		color: #fff;
 		font: 42px @prox-r;
+		@media @mobile {
+			font-size: 24px;
+			text-align: center;
+		}
 		@media @desktop {
 			font: 22px/29px @prox-r;
 		}
@@ -74,6 +92,10 @@
 		    width: 39px;
 		    height: 34px;
 		    margin-right: 18px;
+		    float: left;
+		    @media @mobile {
+		    	display: none;
+		    }
 		}
 	}
 	&__list-item-text {
@@ -81,6 +103,13 @@
 		font: 26px/52px @prox-r;
 		display: block;
 		text-transform: uppercase;
+		@media @mobile {
+			margin-bottom: 10px;
+			font: 11px/30px @prox-r;
+		}
+		@media @tablet {
+			line-height: 50px;
+		}
 		@media @desktop {
 			font: 16px/52px @prox-r;
 		}

@@ -84,9 +84,13 @@ input:-moz-placeholder {
 	text-transform: uppercase;
 	padding: 0 50px;
 	background-color: #fff;
-	margin: 0 auto;
+	// margin: 0 auto;
 	color: @yellow-text;
 	margin-top: 22px;
+	@media @mobile {
+		font: 18px/58px @prox-s;
+		height: 58px;
+	}
 	&--yellow {
 		background-color: @yellow-decore;
 		color: #fff;
@@ -100,9 +104,6 @@ input:-moz-placeholder {
 		display: block;
 		margin: 30px auto 0;
 		@media @mobile {
-			width: 100%;
-		}
-		@media @smartphone {
 			width: 100%;
 		}
 		@media @tablet {
@@ -175,6 +176,9 @@ input:-moz-placeholder {
 	font: 70px @trade;
 	text-align: center;
 	text-transform: uppercase;
+	@media @mobile {
+		font-size: 40px;
+	}
 	@media @desktop {
 		font: 50px @trade;
 	}
@@ -216,9 +220,12 @@ input:-moz-placeholder {
 	}
 }
 .description {
-	font: 44px/51px @prox-r;
+	font: 44px @prox-r;
 	text-align: center;
 	margin: 10px auto 0;
+	@media @mobile {
+		font-size: 24px;
+	}
 	@media @desktop {
 		font: 24px/31px @prox-r;
 		width: 472px;
@@ -227,13 +234,17 @@ input:-moz-placeholder {
 		color: #fff;
 	}
 	&--italic {
-		width: 906px;
 		font-size: 38px;
 		line-height: 49px;
 		&:extend(.italic);
+		@media @mobile {
+			font-size: 18px;
+			line-height: 29px;
+		}
 		@media @desktop {
 			font-size: 18px;
 			line-height: 29px;
+			width: 906px;
 		}
 	}
 	&-btn {
@@ -244,6 +255,10 @@ input:-moz-placeholder {
 		}
 		&--white {
 			color: #fff;
+		}
+		@media @mobile {
+			font-size: 22px;
+			text-align: center;
 		}
 		@media @desktop {
 			font: 18px @prox-r;

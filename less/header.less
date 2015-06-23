@@ -24,6 +24,11 @@
 			background: url(img/logo@2x.png) no-repeat;
 			background-size: 75px 75px;
 		}
+		@media @mobile {
+			height: 160px;
+			width: 100%;
+			background: url(img/logo.png) no-repeat center top;
+		}
 		@media @desktop {
 			margin-bottom: 0;
 			width: 353px;
@@ -36,6 +41,13 @@
 		    top: 0px;
 		    left: 94px;
 		    color: #44444d;
+		    @media @mobile {
+		    	top: 90px;
+		    	left: 0;
+		    	width: 100%;
+		    	text-align: center;
+		    	font-size: 24px;
+		    }
 		    @media @desktop {
 		    	font: 24px @libre-b;
 		    	top: 12px;
@@ -49,6 +61,12 @@
 	    	font: 30px @prox-s;
 		    bottom: -5px;
 		    left: 94px;
+		    @media @mobile {
+		    	font-size: 24px;
+		    	left: 0;
+		    	width: 100%;
+		    	text-align: center;
+		    }
 		    @media @desktop {
 		    	font: 20px @prox-s;
 		    	bottom: 10px;
@@ -58,9 +76,6 @@
 }
 .navigation {
 	@media @mobile {
-		width: 100%;
-	}
-	@media @smartphone {
 		width: 100%;
 	}
 	@media @tablet {
