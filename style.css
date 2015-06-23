@@ -266,6 +266,7 @@ input:-moz-placeholder {
 }
 .btn {
   outline: none;
+  border-radius: none;
   display: inline-block;
   border: none;
   height: 74px;
@@ -418,6 +419,11 @@ input:-moz-placeholder {
   text-align: center;
   text-transform: uppercase;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 766px) {
+  .title--small {
+    font-size: 30px;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .title--small {
     font: 30px 'tradegothicbold';
@@ -514,6 +520,16 @@ input:-moz-placeholder {
       -ms-flex-align: center;
           align-items: center;
   padding: 30px 0;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 766px) {
+  .header {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 1199px) {
+  .header {
+    padding-bottom: 0;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .header {
@@ -1235,6 +1251,9 @@ input:-moz-placeholder {
     height: 690px;
   }
 }
+.content-3 .play-pause {
+  opacity: 0;
+}
 .content-4 {
   position: relative;
 }
@@ -1893,9 +1912,14 @@ video::-webkit-media-controls {
           flex-direction: column;
 }
 .content-8 {
-  padding: 90px;
   background: url(img/content-8.jpg) no-repeat;
   background-size: cover;
+  padding: 90px 0;
+}
+@media only screen and (min-width: 1200px) {
+  .content-8 {
+    padding: 90px;
+  }
 }
 .content-8__icon {
   display: block;
@@ -1939,7 +1963,6 @@ video::-webkit-media-controls {
   top: -150px;
 }
 .people {
-  margin: 90px 0;
   color: #fff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1958,6 +1981,7 @@ video::-webkit-media-controls {
     -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
+    margin: 90px 0;
   }
 }
 .people__item {
@@ -2019,6 +2043,12 @@ video::-webkit-media-controls {
   color: #e0e0e0;
   margin-top: 20px;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 766px) {
+  .people__info {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
 .contact-form {
   margin-top: 60px;
 }
@@ -2049,6 +2079,12 @@ video::-webkit-media-controls {
   color: #fff;
   font: 26px 'libre_baskervilleregular';
   position: relative;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 766px) {
+  .contact-form__input {
+    font: 16px 'libre_baskervilleregular';
+    height: 52px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .contact-form__input {
@@ -2115,27 +2151,52 @@ video::-webkit-media-controls {
 }
 .footer__bottom {
   margin-top: 60px;
+  padding: 20px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.4);
-  height: 61px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+@media only screen and (min-width: 1200px) {
+  .footer__bottom {
+    height: 61px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 .footer__copyright {
   font: 22px 'proxima_nova_rgregular';
   text-transform: uppercase;
+  text-align: center;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 766px) {
+  .footer__copyright {
+    font-size: 12px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .footer__copyright {
+    text-align: left;
     font: 12px 'proxima_nova_rgregular';
   }
 }
@@ -2144,6 +2205,11 @@ video::-webkit-media-controls {
   display: block;
   width: 80px;
   height: 23px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 766px) {
+  .footer__hb {
+    margin-top: 20px;
+  }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 		    	only screen and (   min--moz-device-pixel-ratio: 2),

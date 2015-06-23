@@ -73,6 +73,7 @@ input:-moz-placeholder {
 }
 .btn {
 	outline: none;
+	border-radius: none;
 	display: inline-block;
 	border: none;
 	height: 74px;
@@ -84,7 +85,6 @@ input:-moz-placeholder {
 	text-transform: uppercase;
 	padding: 0 50px;
 	background-color: #fff;
-	// margin: 0 auto;
 	color: @yellow-text;
 	margin-top: 22px;
 	@media @mobile {
@@ -213,6 +213,9 @@ input:-moz-placeholder {
 		font: 50px @trade;
 		text-align: center;
 		text-transform: uppercase;
+		@media @mobile {
+			font-size: 30px;
+		}
 		@media @desktop {
 			font: 30px @trade;
 			text-align: left;

@@ -1,7 +1,10 @@
 .content-8 {
-	padding: 90px;
 	background: url(img/content-8.jpg) no-repeat;
 	background-size: cover;
+	padding: 90px 0;
+	@media @desktop {
+		padding: 90px;
+	}
 	&__icon {
 		display: block;
 		background: url(img/i4.png) no-repeat;
@@ -38,12 +41,12 @@
 	top: -150px;
 }
 .people {
-	margin: 90px 0;
 	color: #fff;
 	display: flex;
 	flex-direction: column;
 	@media @desktop {
 		flex-direction: row;
+		margin: 90px 0;
 	}
 	&__item {
 		overflow: hidden;
@@ -78,6 +81,10 @@
 		color: #e0e0e0;
 		margin-top: 20px;
 		&:extend(.italic);
+		@media @mobile {
+			font-size: 16px;
+			line-height: 26px;
+		}
 	}
 }
 .contact-form {
@@ -99,6 +106,10 @@
 		color: #fff;
 		font: 26px @libre-r;
 		position: relative;
+		@media @mobile {
+			font: 16px @libre-r;
+			height: 52px;
+		}
 		@media @desktop {
 			font: 16px @libre-r;
 			width: 507px;

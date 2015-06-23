@@ -36,16 +36,27 @@
 	}
 	&__bottom {
 		margin-top: 60px;
+		padding: 20px 0;
 		border-top: 1px solid rgba(255,255,255,.4);
-		height: 61px;
 		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		align-items: center;
-		justify-content: space-between;
+		@media @desktop {
+			height: 61px;
+			align-items: center;
+			justify-content: space-between;
+		}
 	}
 	&__copyright {
 		font: 22px @prox-r;
 		text-transform: uppercase;
+		text-align: center;
+		@media @mobile {
+			font-size: 12px;
+		}
 		@media @desktop {
+			text-align: left;
 			font: 12px @prox-r;
 		}
 	}
@@ -54,6 +65,9 @@
 		display: block;
 		width: 80px;
 		height: 23px;
+		@media @mobile {
+			margin-top: 20px;
+		}
 		@media @retina {
 			background: url(img/hb@2x.png) no-repeat;
 			background-size: 80px 23px;
