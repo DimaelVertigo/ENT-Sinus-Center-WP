@@ -110,27 +110,27 @@ get_header(); ?>
 					<div class="line line--jumbotron line--content-3"></div>
 					<ul class="content-3__tabs">
 						<li class="content-3__tab">
-							<p class="content-3__tab-trigger">What is Hipe Tycoon?</p>
+							<p class="content-3__tab-trigger">Gain Access to the Sinus</p>
 							<p class="content-3__hidden-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, nostrum, ullam, minus, velit itaque sint quos ipsum quibusdam id accusantium reprehenderit doloremque soluta! Earum, animi architecto similique odio? Est, sapiente.
+								To gain initial sinus access, the sinus guide catheter is introduced into the nasal cavity to target the sinus ostia under endoscopic visualization. The sinus guidewire or the sinus illumination system is intro- duced through the sinus guide catheter and gently advanced into the target sinus.
 							</p>
 						</li>
 						<li class="content-3__tab">
 							<p class="content-3__tab-trigger">Inflate Balloon Across Ostium</p>
 							<p class="content-3__hidden-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, nostrum, ullam, minus, velit itaque sint quos ipsum quibusdam id accusantium reprehenderit doloremque soluta! Earum, animi architecto similique odio? Est, sapiente.
+								The sinus balloon catheter is introduced over the sinus guidewire or sinus illumination system and posi- tioned across the blocked ostium. The position of the sinus balloon catheter is confirmed and the balloon is gradually inflated to open and remodel the narrowed or blocked ostium.
 							</p>
 						</li>
 						<li class="content-3__tab">
 							<p class="content-3__tab-trigger">Remove Balloon and Irrigate Sinus</p>
 							<p class="content-3__hidden-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, nostrum, ullam, minus, velit itaque sint quos ipsum quibusdam id accusantium reprehenderit doloremque soluta! Earum, animi architecto similique odio? Est, sapiente.
+								The sinus balloon catheter is then deflated and removed. The irrigation catheter is advanced over the sinus guidewire or sinus illumination system into the target sinus. The sinus is then irrigated, flushing tenacious sinus contents - like pus and mucus.
 							</p>
 						</li>
 						<li class="content-3__tab">
 							<p class="content-3__tab-trigger">Remove System</p>
 							<p class="content-3__hidden-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, nostrum, ullam, minus, velit itaque sint quos ipsum quibusdam id accusantium reprehenderit doloremque soluta! Earum, animi architecto similique odio? Est, sapiente.
+								The irrigation catheter is removed, leaving the ostium open and the sinus cleared of mucus allowing the return of sinus drainage. There is little to no disruption to mucosal lining.
 							</p>
 						</li>
 					</ul>
