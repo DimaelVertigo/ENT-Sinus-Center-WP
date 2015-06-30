@@ -23,14 +23,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "functions.php",
-			"settings":
-			{
-				"buffer_size": 4463,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -39,10 +31,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "",
+		"height": 387.0,
+		"last_filter": "moni",
 		"selected_items":
 		[
+			[
+				"moni",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
 			[
 				"ins",
 				"Package Control: Install Package"
@@ -81,6 +77,11 @@
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/style.css",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/footer.less",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/main.less",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/custom.less",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/functions.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/footer.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/custom.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/content-block-7.less",
@@ -107,11 +108,9 @@
 		"/Applications/MAMP/htdocs/Vost/style.css",
 		"/Users/user/Desktop/elements.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/variables.less",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/custom.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/jumbotron.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/content-6.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/index.php",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/style.css",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/js/scripts.js",
 		"/Users/user/Library/Application Support/Sublime Text 3/Packages/User/retina.sublime-snippet",
 		"/Users/user/Library/Application Support/Sublime Text 3/Packages/User/less-media.sublime-snippet",
@@ -210,44 +209,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3340,
-								3854
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "php",
-							"buffer_scroll_name": "dd9fa588",
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1708.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -291,7 +254,7 @@
 		"height": 118.0
 	},
 	"pinned_build_system": "",
-	"project": "Ent.sublime-project",
+	"project": "ent.sublime-project",
 	"replace":
 	{
 		"height": 48.0
@@ -303,6 +266,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"cu",
+				"less/custom.less"
+			],
+			[
+				"footer",
+				"less/footer.less"
+			],
+			[
+				"l",
+				"less/custom.less"
+			],
+			[
+				"style",
+				"style.css"
+			],
+			[
+				"ma",
+				"less/main.less"
+			],
 			[
 				"fun",
 				"functions.php"
@@ -362,10 +345,6 @@
 			[
 				"2",
 				"less/content-block-2.less"
-			],
-			[
-				"cu",
-				"less/custom.less"
 			],
 			[
 				"ind",
