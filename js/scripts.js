@@ -221,4 +221,5 @@ testENT.init();
 		// 	$('.test-table__head').removeClass('floating-table-header');
 		// } 
 	});
+
 });

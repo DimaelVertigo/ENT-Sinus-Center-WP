@@ -73,7 +73,7 @@ get_header(); ?>
 				</p>
 				<div class="content-2__plans">
 					<div class="content-2__plan content-2__plan--red"> <i class="content-2__plans-icon content-2__plans-icon--red"></i>
-						<p class="content-2__plans-text-1 content-2__plans-text-1--red">Comparing Balloon<br> Sinus Dilation</p>
+						<p class="content-2__plans-text-1 content-2__plans-text-1--red">Traditional Endoscopic<br>Sinus surgery</p>
 						<p class="content-2__plans-text-2">general anesthesia</p>
 						<ul class="content-2__plans-list">
 							<li class="content-2__plans-list-element">Operation room procedure</li>
@@ -83,7 +83,7 @@ get_header(); ?>
 						</ul>
 					</div>
 					<div class="content-2__plan content-2__plan--green"> <i class="content-2__plans-icon content-2__plans-icon--green"></i>
-						<p class="content-2__plans-text-1 content-2__plans-text-1--green">Traditional Endoscopic<br>Sinus surgery</p>
+						<p class="content-2__plans-text-1 content-2__plans-text-1--green">Comparing Balloon<br> Sinus Dilation</p>
 						<p class="content-2__plans-text-2">local anesthesia</p>
 						<ul class="content-2__plans-list">
 
@@ -299,694 +299,693 @@ get_header(); ?>
 							<?php echo do_shortcode("[contact-form-7 id=5 title=Contact form 2]"); ?>
 						</form>
 					</div><!-- contact-form -->
-
 				</div>
-		
-				<table class="test-table">
-					<thead>
-						<tr class="test-table__head">
-							<td class="test-table__head-item test-table__item">assess the severity:</td>
-							<td class="test-table__head-item test-table__item">No Problem</td>
-							<td class="test-table__head-item test-table__item">very mild</td>
-							<td class="test-table__head-item test-table__item">Mild or slight</td>
-							<td class="test-table__head-item test-table__item">Moderate</td>
-							<td class="test-table__head-item test-table__item">Severe</td>
-							<td class="test-table__head-item test-table__item">very bad</td>
-						</tr>
-					</thead>
-
-					<tbody class="test-table__separator">
-						<tr>
-							<td>&nbsp;</td>
-						</tr>
-					</tbody>
-
-					<tbody class="test-table__body">
-						<tr data-quest-number="0" class="test-table__body test-table__body--visible">
-							<td class="test-table__body-item test-table__item">Need to blow nose</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-1-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-1-1" name="tq-1">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-1-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-1-2" name="tq-1">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-1-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-1-3" name="tq-1">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-1-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-1-4" name="tq-1">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-1-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-1-5" name="tq-1">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-1-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-1-6" name="tq-1">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-
-						<tr data-quest-number="1" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Sneezing</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-2-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-2-1" name="tq-2">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-2-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-2-2" name="tq-2">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-2-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-2-3" name="tq-2">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-2-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-2-4" name="tq-2">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-2-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-2-5" name="tq-2">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-2-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-2-6" name="tq-2">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-
-						<tr data-quest-number="2" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Runny nose</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-3-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-3-1" name="tq-3">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-3-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-3-2" name="tq-3">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-3-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-3-3" name="tq-3">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-3-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-3-4" name="tq-3">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-3-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-3-5" name="tq-3">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-3-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-3-6" name="tq-3">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="3" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Cough</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-4-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-4-1" name="tq-4">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-4-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-4-2" name="tq-4">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-4-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-4-3" name="tq-4">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-4-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-4-4" name="tq-4">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-4-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-4-5" name="tq-4">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-4-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-4-6" name="tq-4">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="4" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Post-nasal discharge</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-5-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-5-1" name="tq-5">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-5-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-5-2" name="tq-5">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-5-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-5-3" name="tq-5">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-5-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-5-4" name="tq-5">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-5-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-5-5" name="tq-5">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-5-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-5-6" name="tq-5">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="5" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Thick nasal discharge</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-6-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-6-1" name="tq-6">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-6-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-6-2" name="tq-6">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-6-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-6-3" name="tq-6">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-6-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-6-4" name="tq-6">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-6-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-6-5" name="tq-6">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-6-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-6-6" name="tq-6">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="6" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item"></td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-7-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-7-1" name="tq-7">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-7-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-7-2" name="tq-7">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-7-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-7-3" name="tq-7">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-7-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-7-4" name="tq-7">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-7-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-7-5" name="tq-7">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-7-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-7-6" name="tq-7">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="7" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Dizziness</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-8-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-8-1" name="tq-8">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-8-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-8-2" name="tq-8">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-8-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-8-3" name="tq-8">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-8-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-8-4" name="tq-8">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-8-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-8-5" name="tq-8">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-8-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-8-6" name="tq-8">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="8" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item"></td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-9-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-9-1" name="tq-9">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-9-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-9-2" name="tq-9">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-9-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-9-3" name="tq-9">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-9-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-9-4" name="tq-9">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-9-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-9-5" name="tq-9">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-9-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-9-6" name="tq-9">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="9" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Facial pain / pressure</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-4-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-4-1" name="tq-10">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-10-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-10-2" name="tq-10">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-10-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-10-3" name="tq-10">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-10-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-10-4" name="tq-10">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-10-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-10-5" name="tq-10">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-10-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-10-6" name="tq-10">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="10" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Difficulty falling asleep</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-11-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-11-1" name="tq-11">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-11-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-11-2" name="tq-11">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-11-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-11-3" name="tq-11">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-11-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-11-4" name="tq-11">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-11-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-11-5" name="tq-11">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-11-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-11-6" name="tq-11">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="11" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Wake up at night</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-12-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-12-1" name="tq-12">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-12-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-12-2" name="tq-12">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-12-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-12-3" name="tq-12">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-12-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-12-4" name="tq-12">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-12-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-12-5" name="tq-12">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-12-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-12-6" name="tq-12">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="12" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Lack of sleep</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-13-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-13-1" name="tq-13">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-13-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-13-2" name="tq-13">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-13-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-13-3" name="tq-13">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-13-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-13-4" name="tq-13">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-13-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-13-5" name="tq-13">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-13-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-13-6" name="tq-13">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="13" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Wake up tired</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-14-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-14-1" name="tq-14">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-14-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-14-2" name="tq-14">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-14-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-14-3" name="tq-14">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-14-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-14-4" name="tq-14">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-14-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-14-5" name="tq-14">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-14-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-14-6" name="tq-14">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="14" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Fatigue</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-15-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-15-1" name="tq-15">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-15-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-15-2" name="tq-15">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-15-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-15-3" name="tq-15">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-15-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-15-4" name="tq-15">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-15-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-15-5" name="tq-15">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-15-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-15-6" name="tq-15">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="15" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Reduced productivity</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-16-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-16-1" name="tq-16">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-16-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-16-2" name="tq-16">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-16-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-16-3" name="tq-16">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-16-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-16-4" name="tq-16">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-16-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-16-5" name="tq-16">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-16-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-16-6" name="tq-16">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="16" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Reduced concentration</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-17-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-17-1" name="tq-17">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-17-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-17-2" name="tq-17">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-17-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-17-3" name="tq-17">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-17-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-17-4" name="tq-17">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-17-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-17-5" name="tq-17">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-17-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-17-6" name="tq-17">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="17" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Frustrated / restless / irritable</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-18-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-18-1" name="tq-18">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-18-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-18-2" name="tq-18">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-18-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-18-3" name="tq-18">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-18-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-18-4" name="tq-18">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-18-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-18-5" name="tq-18">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-18-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-18-6" name="tq-18">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="18" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Sad</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-19-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-19-1" name="tq-19">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-19-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-19-2" name="tq-19">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-19-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-19-3" name="tq-19">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-19-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-19-4" name="tq-19">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-19-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-19-5" name="tq-19">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-19-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-19-6" name="tq-19">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-						<tr data-quest-number="19" class="test-table__body test-table__body--hidden">
-							<td class="test-table__body-item test-table__item">Embarrassed</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-20-1"></label>
-								<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-20-1" name="tq-20">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-20-2"></label>
-								<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-20-2" name="tq-20">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-20-3"></label>
-								<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-20-3" name="tq-20">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-20-4"></label>
-								<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-20-4" name="tq-20">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-20-5"></label>
-								<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-20-5" name="tq-20">
-								<span class="test-table__checkbox"></span>
-							</td>
-							<td class="test-table__body-item test-table__item">
-								<label for="checkbox-20-6"></label>
-								<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-20-6" name="tq-20">
-								<span class="test-table__checkbox"></span>
-							</td>
-						</tr>
-
-					 </tbody>
-				</table>
+				
+				<div class="table-wrapper"><table class="test-table">
+									<thead>
+										<tr class="test-table__head">
+											<td class="test-table__head-item test-table__item">assess the severity:</td>
+											<td class="test-table__head-item test-table__item">No Problem</td>
+											<td class="test-table__head-item test-table__item">very mild</td>
+											<td class="test-table__head-item test-table__item">Mild or slight</td>
+											<td class="test-table__head-item test-table__item">Moderate</td>
+											<td class="test-table__head-item test-table__item">Severe</td>
+											<td class="test-table__head-item test-table__item">very bad</td>
+										</tr>
+									</thead>
+				
+									<tbody class="test-table__separator">
+										<tr>
+											<td>&nbsp;</td>
+										</tr>
+									</tbody>
+				
+									<tbody class="test-table__body">
+										<tr data-quest-number="0" class="test-table__body test-table__body--visible">
+											<td class="test-table__body-item test-table__item">Need to blow nose</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-1-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-1-1" name="tq-1">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-1-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-1-2" name="tq-1">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-1-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-1-3" name="tq-1">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-1-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-1-4" name="tq-1">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-1-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-1-5" name="tq-1">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-1-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-1-6" name="tq-1">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+				
+										<tr data-quest-number="1" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Sneezing</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-2-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-2-1" name="tq-2">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-2-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-2-2" name="tq-2">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-2-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-2-3" name="tq-2">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-2-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-2-4" name="tq-2">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-2-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-2-5" name="tq-2">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-2-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-2-6" name="tq-2">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+				
+										<tr data-quest-number="2" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Runny nose</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-3-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-3-1" name="tq-3">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-3-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-3-2" name="tq-3">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-3-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-3-3" name="tq-3">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-3-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-3-4" name="tq-3">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-3-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-3-5" name="tq-3">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-3-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-3-6" name="tq-3">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="3" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Cough</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-4-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-4-1" name="tq-4">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-4-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-4-2" name="tq-4">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-4-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-4-3" name="tq-4">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-4-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-4-4" name="tq-4">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-4-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-4-5" name="tq-4">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-4-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-4-6" name="tq-4">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="4" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Post-nasal discharge</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-5-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-5-1" name="tq-5">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-5-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-5-2" name="tq-5">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-5-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-5-3" name="tq-5">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-5-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-5-4" name="tq-5">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-5-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-5-5" name="tq-5">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-5-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-5-6" name="tq-5">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="5" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Thick nasal discharge</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-6-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-6-1" name="tq-6">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-6-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-6-2" name="tq-6">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-6-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-6-3" name="tq-6">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-6-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-6-4" name="tq-6">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-6-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-6-5" name="tq-6">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-6-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-6-6" name="tq-6">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="6" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item"></td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-7-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-7-1" name="tq-7">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-7-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-7-2" name="tq-7">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-7-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-7-3" name="tq-7">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-7-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-7-4" name="tq-7">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-7-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-7-5" name="tq-7">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-7-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-7-6" name="tq-7">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="7" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Dizziness</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-8-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-8-1" name="tq-8">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-8-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-8-2" name="tq-8">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-8-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-8-3" name="tq-8">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-8-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-8-4" name="tq-8">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-8-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-8-5" name="tq-8">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-8-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-8-6" name="tq-8">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="8" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item"></td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-9-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-9-1" name="tq-9">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-9-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-9-2" name="tq-9">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-9-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-9-3" name="tq-9">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-9-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-9-4" name="tq-9">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-9-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-9-5" name="tq-9">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-9-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-9-6" name="tq-9">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="9" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Facial pain / pressure</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-4-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-4-1" name="tq-10">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-10-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-10-2" name="tq-10">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-10-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-10-3" name="tq-10">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-10-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-10-4" name="tq-10">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-10-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-10-5" name="tq-10">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-10-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-10-6" name="tq-10">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="10" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Difficulty falling asleep</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-11-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-11-1" name="tq-11">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-11-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-11-2" name="tq-11">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-11-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-11-3" name="tq-11">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-11-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-11-4" name="tq-11">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-11-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-11-5" name="tq-11">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-11-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-11-6" name="tq-11">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="11" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Wake up at night</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-12-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-12-1" name="tq-12">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-12-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-12-2" name="tq-12">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-12-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-12-3" name="tq-12">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-12-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-12-4" name="tq-12">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-12-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-12-5" name="tq-12">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-12-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-12-6" name="tq-12">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="12" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Lack of sleep</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-13-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-13-1" name="tq-13">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-13-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-13-2" name="tq-13">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-13-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-13-3" name="tq-13">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-13-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-13-4" name="tq-13">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-13-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-13-5" name="tq-13">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-13-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-13-6" name="tq-13">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="13" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Wake up tired</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-14-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-14-1" name="tq-14">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-14-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-14-2" name="tq-14">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-14-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-14-3" name="tq-14">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-14-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-14-4" name="tq-14">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-14-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-14-5" name="tq-14">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-14-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-14-6" name="tq-14">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="14" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Fatigue</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-15-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-15-1" name="tq-15">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-15-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-15-2" name="tq-15">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-15-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-15-3" name="tq-15">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-15-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-15-4" name="tq-15">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-15-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-15-5" name="tq-15">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-15-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-15-6" name="tq-15">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="15" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Reduced productivity</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-16-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-16-1" name="tq-16">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-16-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-16-2" name="tq-16">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-16-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-16-3" name="tq-16">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-16-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-16-4" name="tq-16">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-16-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-16-5" name="tq-16">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-16-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-16-6" name="tq-16">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="16" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Reduced concentration</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-17-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-17-1" name="tq-17">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-17-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-17-2" name="tq-17">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-17-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-17-3" name="tq-17">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-17-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-17-4" name="tq-17">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-17-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-17-5" name="tq-17">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-17-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-17-6" name="tq-17">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="17" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Frustrated / restless / irritable</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-18-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-18-1" name="tq-18">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-18-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-18-2" name="tq-18">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-18-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-18-3" name="tq-18">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-18-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-18-4" name="tq-18">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-18-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-18-5" name="tq-18">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-18-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-18-6" name="tq-18">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="18" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Sad</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-19-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-19-1" name="tq-19">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-19-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-19-2" name="tq-19">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-19-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-19-3" name="tq-19">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-19-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-19-4" name="tq-19">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-19-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-19-5" name="tq-19">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-19-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-19-6" name="tq-19">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+										<tr data-quest-number="19" class="test-table__body test-table__body--hidden">
+											<td class="test-table__body-item test-table__item">Embarrassed</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-20-1"></label>
+												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-20-1" name="tq-20">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-20-2"></label>
+												<input type="radio" value="1" class="test-table__hidden-radio" id="checkbox-20-2" name="tq-20">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-20-3"></label>
+												<input type="radio" value="2" class="test-table__hidden-radio" id="checkbox-20-3" name="tq-20">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-20-4"></label>
+												<input type="radio" value="3" class="test-table__hidden-radio" id="checkbox-20-4" name="tq-20">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-20-5"></label>
+												<input type="radio" value="4" class="test-table__hidden-radio" id="checkbox-20-5" name="tq-20">
+												<span class="test-table__checkbox"></span>
+											</td>
+											<td class="test-table__body-item test-table__item">
+												<label for="checkbox-20-6"></label>
+												<input type="radio" value="5" class="test-table__hidden-radio" id="checkbox-20-6" name="tq-20">
+												<span class="test-table__checkbox"></span>
+											</td>
+										</tr>
+				
+									 </tbody>
+								</table></div>
 				<div class="status-progress row">
 					<div class="step-info">
 						<span class="status-progress__title">Step</span>
