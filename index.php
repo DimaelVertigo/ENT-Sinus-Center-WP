@@ -27,7 +27,7 @@ get_header(); ?>
 					</p>
 					<p class="jumbotron__text-3">
 						The breakthrough treatment for your sinusitis<br>
-							that is safe fast and Effective!
+							safe, fast and Effective!
 					</p>
 					<div class="line line--jumbotron"></div>
 					<ul class="jumborton__list">
@@ -296,7 +296,7 @@ get_header(); ?>
 					<p class="result-msg italic"></p>
 					<div class="contact-form">
 						<form action="">
-							<?php echo do_shortcode("[contact-form-7 id=5 title=Contact form 2]"); ?>
+							
 						</form>
 					</div><!-- contact-form -->
 				</div>
@@ -522,7 +522,7 @@ get_header(); ?>
 											</td>
 										</tr>
 										<tr data-quest-number="6" class="test-table__body test-table__body--hidden">
-											<td class="test-table__body-item test-table__item"></td>
+											<td class="test-table__body-item test-table__item">Ear fullness</td>
 											<td class="test-table__body-item test-table__item">
 												<label for="checkbox-7-1"></label>
 												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-7-1" name="tq-7">
@@ -588,7 +588,7 @@ get_header(); ?>
 											</td>
 										</tr>
 										<tr data-quest-number="8" class="test-table__body test-table__body--hidden">
-											<td class="test-table__body-item test-table__item"></td>
+											<td class="test-table__body-item test-table__item">Ear pain</td>
 											<td class="test-table__body-item test-table__item">
 												<label for="checkbox-9-1"></label>
 												<input type="radio" value="0" class="test-table__hidden-radio" id="checkbox-9-1" name="tq-9">
@@ -1048,9 +1048,7 @@ get_header(); ?>
 				
 				<i class="content-8__icon"></i>
 				<div class="contact-form">
-					<form action="">
-						<?php echo do_shortcode("[contact-form-7 id=4 title=Contact form 1]"); ?>
-					</form>
+					<?php echo do_shortcode("[contact-form-7 id=6 title=Contact form 1]"); ?>
 				</div><!-- contact-form -->
 
 			</div><!-- wrapper -->	

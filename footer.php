@@ -12,7 +12,7 @@
 		<div class="wrapper">
 			<div class="footer__colums">
 				<div class="footer__item">
-					<div class="title title--small">ENT & Sainus Center</div>
+					<div class="title title--small">ENT & SINUS</div>
 					<div class="line line--content-8"></div>
 					<p class="footer__text">
 						8241 Rochester Avenue, Suite 130 <br>
@@ -23,7 +23,7 @@
 					</p>	
 				</div>
 				<div class="footer__item">
-					<div class="title title--small">Henry H Nguyen, MD</div>
+					<div class="title title--small">Henry H Nguyen, MD<br>Dr. Deborshi Roy</div>
 					<div class="line line--content-8"></div>
 					<p class="footer__text">
 						8241 Rochester Avenue, Suite 130 <br>
@@ -32,7 +32,7 @@
 					</p>	
 				</div>
 				<div class="footer__item">
-					<div class="title title--small">Our hours are as follows </div>
+					<div class="title title--small">Office Hour</div>
 					<div class="line line--content-8"></div>
 					<p class="footer__text">
 						Monday - Friday: <span class="yellow">8:00 AM - 5:00 PM</span><br>
