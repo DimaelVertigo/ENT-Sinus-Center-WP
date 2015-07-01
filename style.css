@@ -241,6 +241,9 @@ input:-moz-placeholder {
 .container--gray {
   background-color: #f6f7f9;
 }
+.container--table {
+  overflow: auto;
+}
 .wrapper {
   width: 100%;
   margin-left: auto;
@@ -260,6 +263,11 @@ input:-moz-placeholder {
 .wrapper--padding-off {
   padding-left: 0;
   padding-right: 0;
+}
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+  .wrapper--table {
+    overflow-x: scroll;
+  }
 }
 .content {
   width: 100%;

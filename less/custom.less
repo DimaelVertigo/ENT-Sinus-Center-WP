@@ -49,6 +49,9 @@ input:-moz-placeholder {
 	&--gray {
 		background-color: #f6f7f9;
 	}
+	&--table {
+		overflow: auto;
+	}
 }
 .wrapper {
 	width: 100%;
@@ -66,6 +69,11 @@ input:-moz-placeholder {
 	&--padding-off {
 		padding-left: 0;
 		padding-right: 0;
+	}
+	&--table {
+		@media @mobile {
+			overflow-x: scroll;
+		}
 	}
 }
 .content {

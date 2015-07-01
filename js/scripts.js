@@ -85,6 +85,7 @@ var testENT = (function() {
 	var resultPopup = $('#result-popup'),
 		scoreResult = resultPopup.find('.rs-sum'),
 		msgResult = resultPopup.find('.result-msg'),
+		msgScore = resultPopup.find('.progress-bar span'),
 		tableEnt = $('.test-table'),
 		btnShowResult = tableEnt.closest('.container').next('.container').find('.js-show-test-result'),
 		numberQuestion = $('.test-question'),
@@ -175,6 +176,7 @@ var testENT = (function() {
 					open: function() {
 						scoreResult.text(_this.sumResult(score));
 						msgResult.text(msg);
+						msgScore.css('width', _this.sumResult(score) + '%');
 					}
 				}
 			});
