@@ -2108,6 +2108,9 @@ video::-webkit-media-controls {
 .contact-form__input--has-error {
   background-color: rgba(233, 85, 93, 0.4);
 }
+.contact-form__input--hidden {
+  display: none;
+}
 .contact-form .wpcf7-response-output {
   font: 16px 'proxima_novasemibold';
   text-transform: uppercase;

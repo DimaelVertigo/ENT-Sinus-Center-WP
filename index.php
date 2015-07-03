@@ -12,7 +12,6 @@
  */
 
 get_header(); ?>
-
 	<div class="container">
 		<div class="jumbotron">
 			<div class="wrapper jumbotron__wrapper">
@@ -27,7 +26,7 @@ get_header(); ?>
 					</p>
 					<p class="jumbotron__text-3">
 						The breakthrough treatment for your sinusitis<br>
-							safe, fast and Effective!
+							safe, fast and effective.
 					</p>
 					<div class="line line--jumbotron"></div>
 					<ul class="jumborton__list">
@@ -1047,7 +1046,7 @@ get_header(); ?>
 				
 				<i class="content-8__icon"></i>
 				<div class="contact-form">
-					<?php echo do_shortcode("[contact-form-7 id=6 title=Contact form 1]"); ?>
+					<?php echo do_shortcode("[contact-form-7 id=9 title=Contact form 1]"); ?>
 				</div><!-- contact-form -->
 
 			</div><!-- wrapper -->	

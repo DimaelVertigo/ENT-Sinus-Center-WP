@@ -12,7 +12,7 @@
 		<div class="wrapper">
 			<div class="footer__colums">
 				<div class="footer__item">
-					<div class="title title--small">ENT & SINUS</div>
+					<div class="title title--small">ent & sinus center</div>
 					<div class="line line--content-8"></div>
 					<p class="footer__text">
 						8241 Rochester Avenue, Suite 130 <br>
