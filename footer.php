@@ -23,7 +23,7 @@
 					</p>	
 				</div>
 				<div class="footer__item">
-					<div class="title title--small">Henry H Nguyen, MD<br>Dr. Deborshi Roy</div>
+					<div class="title title--small">henry h nguyen, md<br>deborshi roy, md</div>
 					<div class="line line--content-8"></div>
 					<p class="footer__text">
 						8241 Rochester Avenue, Suite 130 <br>

@@ -28,7 +28,7 @@
 						<li class="navigation__item">
 							<a href="#anchor--1" class="navigation__link navigation__link--1 anchor">benefits</a>
 						</li><li class="navigation__item">
-							<a href="#anchor--2" class="navigation__link navigation__link--2 anchor">how it work</a>
+							<a href="#anchor--2" class="navigation__link navigation__link--2 anchor">how it works</a>
 						</li><li class="navigation__item">
 							<a href="#anchor--3" class="navigation__link navigation__link--3 anchor">testimonials</a>
 						</li><li class="navigation__item">
