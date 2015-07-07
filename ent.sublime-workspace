@@ -27,7 +27,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 55813,
+				"buffer_size": 55863,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,39 +35,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 54695,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "less/content-8.less",
-			"settings":
-			{
-				"buffer_size": 2343,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "less/custom.less",
-			"settings":
-			{
-				"buffer_size": 4565,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/scripts.js",
-			"settings":
-			{
-				"buffer_size": 6755,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sftp-config.json",
-			"settings":
-			{
-				"buffer_size": 1398,
+				"buffer_size": 54694,
 				"line_ending": "Unix"
 			}
 		}
@@ -79,10 +47,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 387.0,
-		"last_filter": "moni",
+		"height": 392.0,
+		"last_filter": "mon",
 		"selected_items":
 		[
+			[
+				"mon",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
 			[
 				"moni",
 				"SFTP: Monitor File (Upload on External Save)"
@@ -126,20 +98,24 @@
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/footer.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/content-8.less",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/index.html",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/sftp-config.json",
+		"/Users/user/Desktop/lesshat.less",
+		"/Users/user/Desktop/elements.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/index.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/custom.less",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/js/scripts.js",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/header.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/ent_2015-07-01.sql",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/variables.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/content-3.less",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/footer.php",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/js/scripts.js",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/functions.php",
 		"/Applications/MAMP/htdocs/Ent/Ent-Sinus-Center/index.html",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/footer.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/main.css",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/main.less",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/sftp-config.json",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/style.css",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/footer.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/custom.less",
@@ -165,7 +141,6 @@
 		"/Applications/MAMP/htdocs/Vost/less/content-block-1.less",
 		"/Applications/MAMP/htdocs/Vost/less/variables.less",
 		"/Applications/MAMP/htdocs/Vost/style.css",
-		"/Users/user/Desktop/elements.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/jumbotron.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/content-6.less",
 		"/Users/user/Library/Application Support/Sublime Text 3/Packages/User/retina.sublime-snippet",
@@ -176,7 +151,6 @@
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/content-7.less",
 		"/Users/user/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
 		"/Users/user/Library/Application Support/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/index.html",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ent-sinus-center/index.html",
 		"/Applications/MAMP/htdocs/wordpress.local/wordpress/wp-config-sample.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-config.php",
@@ -206,6 +180,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"",
+			"contac",
+			"\"",
 			"contact",
 			">\n",
 			"\"",
@@ -270,7 +247,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -279,15 +256,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 55813,
+						"buffer_size": 55863,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								191,
-								191
+								55178,
+								55178
 							]
 						],
 						"settings":
@@ -303,10 +280,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 40588.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -315,7 +292,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 54695,
+						"buffer_size": 54694,
 						"regions":
 						{
 							"bookmarks":
@@ -325,8 +302,8 @@
 								"regions":
 								[
 									[
-										13130,
-										13130
+										13129,
+										13129
 									]
 								],
 								"scope": "bookmarks"
@@ -335,8 +312,8 @@
 						"selection":
 						[
 							[
-								53949,
-								53949
+								51809,
+								51809
 							]
 						],
 						"settings":
@@ -352,151 +329,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9519.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "less/content-8.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2343,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1874,
-								1874
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "less",
-							"buffer_scroll_name": "dd209f7d",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"spell_check": false,
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1492.0,
+						"translation.y": 24029.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "less/custom.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4565,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								736,
-								736
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "less",
-							"buffer_scroll_name": "9778e2a2",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"spell_check": false,
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 532.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/scripts.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6755,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4565,
-								4565
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "javascript",
-							"buffer_scroll_name": "deba7892",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"spell_check": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2738.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "sftp-config.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1398,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "json",
-							"buffer_scroll_name": "22de3492",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"spell_check": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -559,12 +395,24 @@
 				"less/content-8.less"
 			],
 			[
-				"cus",
-				"less/custom.less"
+				"footer",
+				"footer.php"
 			],
 			[
 				"in",
 				"index.php"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"he",
+				"header.php"
+			],
+			[
+				"cus",
+				"less/custom.less"
 			],
 			[
 				"sc",
@@ -601,10 +449,6 @@
 			[
 				"ma",
 				"less/main.less"
-			],
-			[
-				"footer",
-				"less/footer.less"
 			],
 			[
 				"l",
@@ -659,10 +503,6 @@
 				"less/content-block-2.less"
 			],
 			[
-				"ind",
-				"index.html"
-			],
-			[
 				"j",
 				"less/jumbotron.less"
 			],
@@ -673,10 +513,6 @@
 			[
 				"st",
 				"style.css"
-			],
-			[
-				"he",
-				"less/header.less"
 			],
 			[
 				"le",

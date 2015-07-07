@@ -1046,7 +1046,8 @@ get_header(); ?>
 				
 				<i class="content-8__icon"></i>
 				<div class="contact-form">
-					<?php echo do_shortcode("[contact-form-7 id=9 title=Contact form 1]"); ?>
+					<?php echo do_shortcode("[contact-form-7 id=10 title=cc]"); ?>
+					
 				</div><!-- contact-form -->
 
 			</div><!-- wrapper -->	
