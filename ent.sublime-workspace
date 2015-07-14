@@ -24,18 +24,18 @@
 	"buffers":
 	[
 		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 55863,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "index.php",
 			"settings":
 			{
 				"buffer_size": 54694,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 52238,
 				"line_ending": "Unix"
 			}
 		}
@@ -93,21 +93,21 @@
 	},
 	"expanded_folders":
 	[
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/css"
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP"
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/sftp-config.json",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/index.php",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/js/scripts.js",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/header.php",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/style.css",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/footer.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/content-8.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/index.html",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/sftp-config.json",
 		"/Users/user/Desktop/lesshat.less",
 		"/Users/user/Desktop/elements.less",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/index.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/custom.less",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/js/scripts.js",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/header.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/ent_2015-07-01.sql",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/variables.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/content-3.less",
@@ -116,7 +116,6 @@
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/footer.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/main.css",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/main.less",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/style.css",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/footer.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/custom.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/content-block-7.less",
@@ -252,42 +251,6 @@
 			[
 				{
 					"buffer": 0,
-					"file": "style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 55863,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								55178,
-								55178
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "css",
-							"buffer_scroll_name": "7601ea67",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"spell_check": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 40588.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "index.php",
 					"semi_transient": false,
 					"settings":
@@ -312,8 +275,8 @@
 						"selection":
 						[
 							[
-								51809,
-								51809
+								1503,
+								1503
 							]
 						],
 						"settings":
@@ -329,7 +292,43 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 24029.0,
+						"translation.y": 441.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 52238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								654,
+								654
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html",
+							"buffer_scroll_name": "92fda917",
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -391,6 +390,30 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"index.php"
+			],
+			[
+				"sc",
+				"js/scripts.js"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"sf",
+				"sftp-config.json"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
 				"8",
 				"less/content-8.less"
 			],
@@ -399,24 +422,12 @@
 				"footer.php"
 			],
 			[
-				"in",
-				"index.php"
-			],
-			[
-				"ind",
-				"index.html"
-			],
-			[
 				"he",
 				"header.php"
 			],
 			[
 				"cus",
 				"less/custom.less"
-			],
-			[
-				"sc",
-				"js/scripts.js"
 			],
 			[
 				"va",
@@ -487,10 +498,6 @@
 				"less/jumbotron.less"
 			],
 			[
-				"hea",
-				"less/header.less"
-			],
-			[
 				"4",
 				"less/content-block-4.less"
 			],
@@ -541,7 +548,7 @@
 		[
 			[
 				"",
-				"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/Vost.sublime-project"
+				"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/Tech plus.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -562,8 +569,8 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 178.0,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

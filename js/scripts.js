@@ -20,50 +20,50 @@ $(document).ready(function() {
 	});
 
 // Form validation
-	// var form = $('form');
+	var form = $('form');
 
-	// var validation = {
-	// 	init: function() {
-	// 		this.listeners();
-	// 	},
-	// 	listeners: function() {
-	// 		form.on('submit', validation.submitForm);
-	// 		form.on('keydown', 'input, textarea', validation.removeError);
-	// 	},
-	// 	submitForm: function(e) {
+	var validation = {
+		init: function() {
+			this.listeners();
+		},
+		listeners: function() {
+			form.on('submit', validation.submitForm);
+			form.on('keydown', 'input, textarea', validation.removeError);
+		},
+		submitForm: function(e) {
 
-	// 		var form = $(this),
-	// 			submitBtn = form.find('button[type="submit"]');
+			var form = $(this),
+				submitBtn = form.find('button[type="submit"]');
 
-	// 		if (validation.validateForm(form) === false) {
-	// 			e.preventDefault();
-	// 			return false;
-	// 		}
+			if (validation.validateForm(form) === false) {
+				e.preventDefault();
+				return false;
+			}
 
-	// 		submitBtn.attr('disabled', 'disabled');
-	// 	},
-	// 	validateForm: function(form) {
-	// 		var inputs = form.find('input:not(.novalid), textarea:not(.novalid)'),
-	// 			valid = true;
+			submitBtn.attr('disabled', 'disabled');
+		},
+		validateForm: function(form) {
+			var inputs = form.find('input:not(.novalid), textarea:not(.novalid)'),
+				valid = true;
 
-	// 		$.each(inputs, function(idx, val) {
-	// 			var input = $(val),
-	// 				isValue = input.val();
+			$.each(inputs, function(idx, val) {
+				var input = $(val),
+					isValue = input.val();
 
-	// 			if (isValue.length === 0) {
-	// 				input.addClass('contact-form__input--has-error').removeClass('has-success');
-	// 				valid = false;
-	// 			} else {
-	// 				input.addClass('has-success').removeClass('contact-form__input--has-error');
-	// 			}
-	// 		});
-	// 		return valid;
-	// 	},
-	// 	removeError: function() {
-	// 		$(this).removeClass('contact-form__input--has-error');
-	// 	}
-	// };
-	// validation.init();
+				if (isValue.length === 0) {
+					input.addClass('contact-form__input--has-error').removeClass('has-success');
+					valid = false;
+				} else {
+					input.addClass('has-success').removeClass('contact-form__input--has-error');
+				}
+			});
+			return valid;
+		},
+		removeError: function() {
+			$(this).removeClass('contact-form__input--has-error');
+		}
+	};
+	validation.init();
 
 // Anchors 
 	$("a.anchor").click(function(e) {

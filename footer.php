@@ -32,7 +32,7 @@
 					</p>	
 				</div>
 				<div class="footer__item">
-					<div class="title title--small">Office Hour</div>
+					<div class="title title--small">Office Hours</div>
 					<div class="line line--content-8"></div>
 					<p class="footer__text">
 						Monday - Friday: <span class="yellow">8:00 AM - 5:00 PM</span><br>

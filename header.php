@@ -14,7 +14,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="icon" href="<?php bloginfo('template_url') ?>/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo(); ?>favicon.ico">
 <?php wp_head(); ?>
 </head>
 

@@ -18,15 +18,15 @@ get_header(); ?>
 			<p class="jumbotron__img"></p>
 				<div class="jumbotron__texts">
 					
-					<p class="jumbotron__text-1">Balloon Sinusplasty</p>
+					<p class="jumbotron__text-1">Balloon Sinus Surgery</p>
 					<p class="jumbotron__text-2">
 						Solve your long term sinus<br>
 							problems in less than<br>
 							45 minutes!
 					</p>
 					<p class="jumbotron__text-3">
-						The breakthrough treatment for your sinusitis<br>
-							safe, fast and effective.
+						The breakthrough treatment for your sinuses.<br>
+						Safe, fast and effective
 					</p>
 					<div class="line line--jumbotron"></div>
 					<ul class="jumborton__list">
@@ -40,13 +40,13 @@ get_header(); ?>
 							<span class="jumbotron__list-item-text">improved sleep and less antibiotic use</span>
 						</li>
 						<li class="jumbotron__list-item">
-							<span class="jumbotron__list-item-text">improve nasal congestions</span>
+							<span class="jumbotron__list-item-text">Improve nasal congestion</span>
 						</li>
 						<li class="jumbotron__list-item">
 							<span class="jumbotron__list-item-text">Convenient, Comfortable Office Procedure</span>
 						</li>
 						<li class="jumbotron__list-item">
-							<span class="jumbotron__list-item-text">Quick Recovery Duration</span>
+							<span class="jumbotron__list-item-text">Quick recovery</span>
 						</li>
 						<li class="jumbotron__list-item">
 							<span class="jumbotron__list-item-text">Instant, Lasting Relief</span>
@@ -58,18 +58,15 @@ get_header(); ?>
 	</div>
 	<div class="container container--yellow">
 		<div class="content content-1">
-			<p class="description-btn description-btn--dark">Check your candidacy</p>
+			<p class="description-btn description-btn--dark">Are you a candidate?</p>
 			<a href="#anchor--5" class="btn btn--content-1 btn--white anchor">take the test</a>
 		</div>
 	</div>
 	<div class="container" id="anchor--1">
 		<div class="content content-2">
 			<div class="wrapper content-2__wrapper">
-				<h2 class="title title--white">What is better and why</h2>
-				<p class="description description--content-2">
-					Both are effective in delivering significant,
-							lasting improvement in sinusitis symptoms.
-				</p>
+				<h2 class="title title--white">A head to head comparison</h2>
+				<p class="description description--content-2">Both are effective in delivering significant, lasting improvement in sinusitis symptoms, BUT</p>
 				<div class="content-2__plans">
 					<div class="content-2__plan content-2__plan--red"> <i class="content-2__plans-icon content-2__plans-icon--red"></i>
 						<p class="content-2__plans-text-1 content-2__plans-text-1--red">Traditional Endoscopic<br>Sinus surgery</p>
@@ -82,14 +79,14 @@ get_header(); ?>
 						</ul>
 					</div>
 					<div class="content-2__plan content-2__plan--green"> <i class="content-2__plans-icon content-2__plans-icon--green"></i>
-						<p class="content-2__plans-text-1 content-2__plans-text-1--green">Comparing Balloon<br> Sinus Dilation</p>
+						<p class="content-2__plans-text-1 content-2__plans-text-1--green">Balloon Sinus <br>Dilation</p>
 						<p class="content-2__plans-text-2">local anesthesia</p>
 						<ul class="content-2__plans-list">
 
 							<li class="content-2__plans-list-element">In-office procedure</li>
 							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--green">30-45</span> minutes procedure</li>
 							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--green">1-2</span> days recovery</li>
-							<li class="content-2__plans-list-element">Cutting instruments remove tissue</li>
+							<li class="content-2__plans-list-element">Small balloons. Cutting instruments..</li>
 						</ul>
 					</div>
 				</div><!-- content-2__plans -->
@@ -105,7 +102,7 @@ get_header(); ?>
 		<div class="content content-3">
 			<div class="content-3__left">
 				<div class="content-3__tabs-area">
-					<h2 class="title title--white content-3__title">how it work</h2>
+					<h2 class="title title--white content-3__title">How it works</h2>
 					<div class="line line--jumbotron line--content-3"></div>
 					<ul class="content-3__tabs">
 						<li class="content-3__tab">
@@ -166,7 +163,7 @@ get_header(); ?>
 			<div class="wrapper">
 
 				<h2 class="title title--dark title--line"><span class="title__hightlight title__hightlight--yellow">390,000</span> others trust the procedure</h2>
-				<p class="description description--italic description--content-5">To date, Balloon sinuplasty has helped over 390,000 sinus patients, dilating over 1.5million sinus passages. Here is what they have to soy:</p>
+				<p class="description description--italic description--content-5">To date, Balloon Sinus surgery has helped over 390,000 patients, dilating over 1.5million sinus passages. Here is what they have to say:</p>
 				<div class="videos">
 					<div class="videos__item">
 						<div class="videos__frame videos__frame--1">
@@ -279,7 +276,7 @@ get_header(); ?>
 
 				<h2 class="title title--dark title--line">Are you a candidate for the procedure?</h2>
 				<p class="description description--italic">
-					Consider how severe the problem is when you experience it and how frequently it happens, please rate each item below on how “bad” it is by ticking the radio button that corresponds with you feel.
+					Consider how severe the problem is, when you experience it, and how frequently it happens. Please rate each item below on how “bad” it is by clicking the button that corresponds with what you feel.
 				</p>
 				<div id="result-popup" class="white-popup mfp-hide"> 
 					<h2 class="result-score title title--line">Your results</h2>
@@ -1028,9 +1025,7 @@ get_header(); ?>
 						<div class="people__text">
 							<div class="title title--small">Dr. Henry Nguyen</div>
 							<div class="line line--jumbotron line--content-8"></div>
-							<div class="people__info">
-								Dr. Nguyen is board certified in Otolaryngology - Head and Neck Surgery. He has been in practice since 1999. Dr. Nguyen has as special interests in the medical and surgical treatment of patients with difficult chronic sinus diseases and nasal polyps, , head and neck surgery including thyroid and parathyroid surgery, and the medical and surgical of obstructive sleep apnea. He is committed to remain on the forefront of technological advances in endoscopic surgery to improve the safety and precision of his procedures.
-							</div>
+							<div class="people__info">Dr. Nguyen is board certified in Otolaryngology - Head and Neck Surgery. He has been in practice since 1999. Dr. Nguyen has as special interests in the medical and surgical treatment of patients with difficult chronic sinus diseases and nasal polyps,  head and neck surgery including thyroid and parathyroid surgery, and the medical and surgical treatment of obstructive sleep apnea. He is committed to remain on the forefront of technological advances in endoscopic surgery to improve the safety and precision of his procedures.</div>
 						</div>
 					</div>
 					<div class="people__item">
@@ -1038,7 +1033,7 @@ get_header(); ?>
 						<div class="people__text">
 							<div class="title title--small">Dr. Deborshi Roy</div>
 							<div class="line line--jumbotron line--content-8"></div>
-							<div class="people__info">Dr. Roy is board-certified in both tolaryngology and Facial Plastic & Reconstructive Surgery. Dr. Roy sees all patients with ear, nose and throat disorders, including children. He has a special interest in nasal and sinus surgery, as well as facial plastic surgery. Dr. Roy uses the most innovative techniques and technology to perform procedures in the office as well as the operating room, including Balloon Sinuplasty.</div>
+							<div class="people__info">Dr. Roy is board-certified in both Otolaryngology and Facial Plastic & Reconstructive Surgery. Dr. Roy sees all patients with ear, nose and throat disorders, including children. He has a special interest in nasal and sinus surgery, as well as facial plastic surgery. Dr. Roy uses the most innovative techniques and technology to perform procedures in the office as well as in the operating room, including Balloon Sinus Surgery.</div>
 						</div>
 					</div>
 				</div><!-- people -->
@@ -1046,8 +1041,7 @@ get_header(); ?>
 				
 				<i class="content-8__icon"></i>
 				<div class="contact-form">
-					<?php echo do_shortcode("[contact-form-7 id=10 title=cc]"); ?>
-					
+					<?php echo do_shortcode("[contact-form-7 id=9 title=Contact form 1]"); ?>
 				</div><!-- contact-form -->
 
 			</div><!-- wrapper -->	
