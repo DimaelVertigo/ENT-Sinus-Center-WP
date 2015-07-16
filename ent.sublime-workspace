@@ -27,15 +27,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 54694,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 52238,
+				"buffer_size": 54665,
 				"line_ending": "Unix"
 			}
 		}
@@ -48,9 +40,13 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "mon",
+		"last_filter": "rei",
 		"selected_items":
 		[
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"mon",
 				"SFTP: Monitor File (Upload on External Save)"
@@ -72,7 +68,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 494.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -97,14 +93,14 @@
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/footer.php",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/header.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/sftp-config.json",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/index.html",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/index.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/js/scripts.js",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/header.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/style.css",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/footer.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/content-8.less",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/index.html",
 		"/Users/user/Desktop/lesshat.less",
 		"/Users/user/Desktop/elements.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/custom.less",
@@ -179,6 +175,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Office Hour",
+			"Office Hou",
+			"how",
+			"Comparing Balloon Sinus Dilation",
+			"Both are effective in delivering significant, lasting\n\nimprovement in sinusitis symptoms",
+			"Improve Nasal Congestions",
+			"eff",
+			"effe",
 			"\"",
 			"contac",
 			"\"",
@@ -246,7 +250,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -255,7 +259,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 54694,
+						"buffer_size": 54665,
 						"regions":
 						{
 							"bookmarks":
@@ -265,8 +269,8 @@
 								"regions":
 								[
 									[
-										13129,
-										13129
+										13101,
+										13101
 									]
 								],
 								"scope": "bookmarks"
@@ -275,8 +279,8 @@
 						"selection":
 						[
 							[
-								1503,
-								1503
+								911,
+								911
 							]
 						],
 						"settings":
@@ -292,43 +296,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 441.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 52238,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								654,
-								654
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "html",
-							"buffer_scroll_name": "92fda917",
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"spell_check": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 164.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -390,6 +358,14 @@
 		"selected_items":
 		[
 			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
 				"in",
 				"index.php"
 			],
@@ -400,10 +376,6 @@
 			[
 				"ind",
 				"index.php"
-			],
-			[
-				"hea",
-				"header.php"
 			],
 			[
 				"sf",
@@ -436,10 +408,6 @@
 			[
 				"fu",
 				"functions.php"
-			],
-			[
-				"foo",
-				"footer.php"
 			],
 			[
 				"3",
@@ -569,7 +537,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 185.0,
 	"status_bar_visible": true,
 	"template_settings":

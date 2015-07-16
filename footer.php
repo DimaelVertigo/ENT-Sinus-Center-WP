@@ -15,10 +15,10 @@
 					<div class="title title--small">ent & sinus center</div>
 					<div class="line line--content-8"></div>
 					<p class="footer__text">
-						8241 Rochester Avenue, Suite 130 <br>
-						Rancho Cucamonga, CA 91730-0713 <br>
-						<span class="yellow">(909) 466-8400</span> <br>
-						<span class="yellow">(909) 466-8400</span> (fax) <br>
+						8241 Rochester Avenue, Suite <span class="numeric">130</span> <br>
+						Rancho Cucamonga, CA <span class="numeric">91730-0713</span> <br>
+						<span class="yellow numeric">(909) 466-8400</span> <br>
+						<span class="yellow numeric">(909) 466-8400</span> (fax) <br>
 						<a href="http://www.entsinus.net/" class="link" target="_blank">www.entsinuscenter.com</a>
 					</p>	
 				</div>
@@ -26,8 +26,8 @@
 					<div class="title title--small">henry h nguyen, md<br>deborshi roy, md</div>
 					<div class="line line--content-8"></div>
 					<p class="footer__text">
-						8241 Rochester Avenue, Suite 130 <br>
-						Rancho Cucamonga, CA 91730-0713 <br>
+						8241 Rochester Avenue, Suite <span class="numeric">130</span> <br>
+						Rancho Cucamonga, CA <span class="numeric">91730-0713</span> <br>
 						<a href="http://www.entsinus.net/" class="link" target="_blank">www.entsinuscenter.com</a>
 					</p>	
 				</div>
@@ -35,7 +35,7 @@
 					<div class="title title--small">Office Hours</div>
 					<div class="line line--content-8"></div>
 					<p class="footer__text">
-						Monday - Friday: <span class="yellow">8:00 AM - 5:00 PM</span><br>
+						Monday - Friday: <span class="yellow"><span class="numeric">8:00</span> AM - <span class="numeric">5:00</span> PM</span><br>
 						Saturday - Sunday: <span class="yellow">Closed</span>
 					</p>	
 				</div>

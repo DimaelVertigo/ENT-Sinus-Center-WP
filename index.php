@@ -73,8 +73,8 @@ get_header(); ?>
 						<p class="content-2__plans-text-2">general anesthesia</p>
 						<ul class="content-2__plans-list">
 							<li class="content-2__plans-list-element">Operation room procedure</li>
-							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--red">1-2</span> hours procedure</li>
-							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--red">1-4</span> weeks</li>
+							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--red numeric">1-2</span> hours procedure</li>
+							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--red numeric">1-4</span> weeks</li>
 							<li class="content-2__plans-list-element">Small balloons gently reshape anatomy</li>
 						</ul>
 					</div>
@@ -84,8 +84,8 @@ get_header(); ?>
 						<ul class="content-2__plans-list">
 
 							<li class="content-2__plans-list-element">In-office procedure</li>
-							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--green">30-45</span> minutes procedure</li>
-							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--green">1-2</span> days recovery</li>
+							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--green numeric">30-45</span> minutes procedure</li>
+							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--green numeric">1-2</span> days recovery</li>
 							<li class="content-2__plans-list-element">Small balloons. Cutting instruments..</li>
 						</ul>
 					</div>
@@ -163,7 +163,7 @@ get_header(); ?>
 			<div class="wrapper">
 
 				<h2 class="title title--dark title--line"><span class="title__hightlight title__hightlight--yellow">390,000</span> others trust the procedure</h2>
-				<p class="description description--italic description--content-5">To date, Balloon Sinus surgery has helped over 390,000 patients, dilating over 1.5million sinus passages. Here is what they have to say:</p>
+				<p class="description description--italic description--content-5">To date, Balloon Sinus surgery has helped over <span class="numeric">390,000 </span>patients, dilating over 1.5million sinus passages. Here is what they have to say:</p>
 				<div class="videos">
 					<div class="videos__item">
 						<div class="videos__frame videos__frame--1">
