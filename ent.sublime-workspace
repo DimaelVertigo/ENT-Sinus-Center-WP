@@ -27,7 +27,23 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 39318,
+				"buffer_size": 39353,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/content-6.less",
+			"settings":
+			{
+				"buffer_size": 8473,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/custom.less",
+			"settings":
+			{
+				"buffer_size": 4620,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,42 +51,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 54726,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "less/variables.less",
-			"settings":
-			{
-				"buffer_size": 1251,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "footer.php",
-			"settings":
-			{
-				"buffer_size": 2028,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "header.php",
-			"settings":
-			{
-				"buffer_size": 1632,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "\n{\n    // The tab key will cycle through the settings when first created\n    // Visit http://wbond.net/sublime_packages/sftp/settings for help\n    \n    // sftp, ftp or ftps\n    \"type\": \"ftp\",\n\n    \"save_before_upload\": true,\n    \"upload_on_save\": true,\n    \"sync_down_on_open\": false,\n    \"sync_skip_deletes\": false,\n    \"sync_same_age\": true,\n    \"confirm_downloads\": false,\n    \"confirm_sync\": true,\n    \"confirm_overwrite_newer\": false,\n    \n    \"host\": \"inlandempiresinus.com\",\n    \"user\": \"milkorac\",\n    \"password\": \"peachie1\",\n    //\"port\": \"22\",\n    \n    \"remote_path\": \"/public_html/inlandempiresinus.com/wp-content/themes/ENT-Sinus-Center-WP\",\n    \"ignore_regexes\": [\n        \"\\\\.sublime-(project|workspace)\", \"sftp-config(-alt\\\\d?)?\\\\.json\",\n        \"sftp-settings\\\\.json\", \"/venv/\", \"\\\\.svn/\", \"\\\\.hg/\", \"\\\\.git/\",\n        \"\\\\.bzr\", \"_darcs\", \"CVS\", \"\\\\.DS_Store\", \"Thumbs\\\\.db\", \"desktop\\\\.ini\"\n    ],\n    //\"file_permissions\": \"664\",\n    //\"dir_permissions\": \"775\",\n    \n    //\"extra_list_connections\": 0,\n\n    \"connect_timeout\": 30,\n    \"keepalive\": 12,\n    //\"ftp_passive_mode\": true,\n    //\"ftp_obey_passive_host\": false,\n    //\"ssh_key_file\": \"~/.ssh/id_rsa\",\n    //\"sftp_flags\": [\"-F\", \"/path/to/ssh_config\"],\n    \n    //\"preserve_modification_times\": false,\n    //\"remote_time_offset_in_hours\": 0,\n    //\"remote_encoding\": \"utf-8\",\n    //\"remote_locale\": \"C\",\n    //\"allow_config_upload\": false,\n}",
-			"file": ".gitignore",
-			"file_size": 0,
-			"file_write_time": 130815145530000000,
-			"settings":
-			{
-				"buffer_size": 1417,
+				"buffer_size": 54708,
 				"line_ending": "Unix"
 			}
 		}
@@ -82,10 +63,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 387.0,
-		"last_filter": "moni",
+		"height": 392.0,
+		"last_filter": "pack",
 		"selected_items":
 		[
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
 			[
 				"moni",
 				"SFTP: Monitor File (Upload on External Save)"
@@ -97,10 +86,6 @@
 			[
 				"mon",
 				"SFTP: Monitor File (Upload on External Save)"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"less",
@@ -118,6 +103,7 @@
 		"height": 146.0,
 		"history":
 		[
+			"open -a 'Sublime Text' ~/.bashrc",
 			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
@@ -136,21 +122,36 @@
 	],
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/sftp-config.json",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/content-2.less",
+		"/Users/user/Library/Caches/Cleanup At Startup/Transmit/2E252888-B743-4DF6-B8AA-A002D2E483CD/.htaccess",
+		"/Users/user/Library/Caches/Cleanup At Startup/Transmit/59BEC1BD-6073-4D41-B793-E00090FEFF13/.htaccess",
+		"/Users/user/Library/Caches/Cleanup At Startup/Transmit/C9CC9230-2CAC-4D49-ADF0-E1753D18FE6A/.htaccess",
+		"/Users/user/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/20581756-3B48-425F-AECA-3E383860C468/.htaccess",
+		"/Users/user/Library/Caches/Cleanup At Startup/Transmit/72ED5EC0-10EE-4462-A39C-61A7E78AE06F/.htaccess",
+		"/Users/user/Library/Caches/Cleanup At Startup/Transmit/59F2FD14-FEE1-4F12-B6D5-A7C8E1486EC2/.htaccess",
+		"/Users/user/Library/Caches/Cleanup At Startup/Transmit/EFDEDFD3-BBBF-4B19-9AE5-30FA3328FEF5/.htaccess",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/.htaccess",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/variables.less",
+		"/Volumes/new/Applications/MAMP/htdocs/wordpress.local/Ent/.htaccess",
+		"/Users/user/Library/Caches/Cleanup At Startup/Transmit/A8A35FCF-399C-468D-8E41-035F2585A101/.htaccess",
+		"/Users/user/Library/Caches/Cleanup At Startup/Transmit/85CA809C-BF40-4B1E-9657-E97DF58D7679/.htaccess",
+		"/Users/user/Library/Caches/Cleanup At Startup/Transmit/98B1FA5A-2664-48F3-A3D7-24FFF8969DA3/.htaccess",
+		"/Users/user/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/3DD37A2F-6738-4CB5-AAF4-A2FBD11E42A5/.htaccess",
+		"/Users/user/Desktop/.htaccess",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/index.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/custom.less",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/content-3.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/footer.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/header.php",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/sftp-config.json",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/.gitignore",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/content-2.less",
+		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/content-3.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/index.html",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/index.php",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/js/scripts.js",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/style.css",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/content-8.less",
 		"/Users/user/Desktop/lesshat.less",
 		"/Users/user/Desktop/elements.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/ent_2015-07-01.sql",
-		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/variables.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/functions.php",
 		"/Applications/MAMP/htdocs/Ent/Ent-Sinus-Center/index.html",
 		"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/less/footer.less",
@@ -219,6 +220,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"item",
+			"/public_html/inlandempiresinus.com/wp-content/themes/ENT-Sinus-Center-WP/img",
+			"tech_plus/wp-content/themes/tech-plus/assets/images",
+			"test-table",
 			"Office Hour",
 			"Office Hou",
 			"how",
@@ -294,7 +299,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -303,15 +308,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 39318,
+						"buffer_size": 39353,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1773,
+								1773
 							]
 						],
 						"settings":
@@ -328,16 +333,86 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "less/content-6.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								902,
+								902
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "less",
+							"buffer_scroll_name": "1df09cbb",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "less/custom.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								472,
+								472
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "less",
+							"buffer_scroll_name": "9778e2a2",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 54726,
+						"buffer_size": 54708,
 						"regions":
 						{
 							"bookmarks":
@@ -347,8 +422,8 @@
 								"regions":
 								[
 									[
-										13162,
-										13162
+										13144,
+										13144
 									]
 								],
 								"scope": "bookmarks"
@@ -357,8 +432,8 @@
 						"selection":
 						[
 							[
-								8065,
-								8065
+								3785,
+								3785
 							]
 						],
 						"settings":
@@ -374,152 +449,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3654.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "less/variables.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								215,
-								208
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "less",
-							"buffer_scroll_name": "43bce31d",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"spell_check": false,
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "footer.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2028,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1488,
-								1488
-							],
-							[
-								1527,
-								1527
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "php",
-							"buffer_scroll_name": "67ba0f0a",
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"spell_check": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 252.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1632,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1156,
-								1156
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "php",
-							"buffer_scroll_name": "b919abbe",
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"spell_check": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1417,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "plain text",
-							"buffer_scroll_name": "b98bc351",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1548.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -581,6 +511,26 @@
 		"selected_items":
 		[
 			[
+				"i",
+				"index.php"
+			],
+			[
+				"c",
+				"less/custom.less"
+			],
+			[
+				"va",
+				"less/variables.less"
+			],
+			[
+				"6",
+				"less/content-6.less"
+			],
+			[
+				"cu",
+				"less/custom.less"
+			],
+			[
 				"git",
 				".gitignore"
 			],
@@ -589,20 +539,12 @@
 				"less/content-2.less"
 			],
 			[
-				"va",
-				"less/variables.less"
-			],
-			[
 				"foo",
 				"footer.php"
 			],
 			[
 				"sty",
 				"style.css"
-			],
-			[
-				"cu",
-				"less/custom.less"
 			],
 			[
 				"3",
@@ -671,10 +613,6 @@
 			[
 				"fun",
 				"functions.php"
-			],
-			[
-				"6",
-				"less/content-block-6.less"
 			],
 			[
 				"7",

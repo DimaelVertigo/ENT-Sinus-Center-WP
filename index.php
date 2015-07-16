@@ -75,7 +75,7 @@ get_header(); ?>
 							<li class="content-2__plans-list-element">Operation room procedure</li>
 							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--red numeric">1-2</span> hours procedure</li>
 							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--red numeric">1-4</span> weeks</li>
-							<li class="content-2__plans-list-element">Small balloons gently reshape anatomy</li>
+							<li class="content-2__plans-list-element">Cutting instruments</li>
 						</ul>
 					</div>
 					<div class="content-2__plan content-2__plan--green"> <i class="content-2__plans-icon content-2__plans-icon--green"></i>
@@ -86,7 +86,7 @@ get_header(); ?>
 							<li class="content-2__plans-list-element">In-office procedure</li>
 							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--green numeric">30-45</span> minutes procedure</li>
 							<li class="content-2__plans-list-element"><span class="content-2__text-3 content-2__text-3--green numeric">1-2</span> days recovery</li>
-							<li class="content-2__plans-list-element">Small balloons. Cutting instruments..</li>
+							<li class="content-2__plans-list-element">Small balloons gently reshape anatomy</li>
 						</ul>
 					</div>
 				</div><!-- content-2__plans -->
